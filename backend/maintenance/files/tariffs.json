@@ -1,0 +1,155 @@
+[
+  {
+    "model": "tariffs.tarifffeature",
+    "pk": 7,
+    "fields": {
+      "tariff": 4,
+      "text": "Возможность опубликовать 4 курса"
+    }
+  },
+  {
+    "model": "tariffs.tarifffeature",
+    "pk": 8,
+    "fields": {
+      "tariff": 5,
+      "text": "Возможность опубликова 8 курсов"
+    }
+  },
+  {
+    "model": "tariffs.tarifffeature",
+    "pk": 9,
+    "fields": {
+      "tariff": 5,
+      "text": "Продвижение в рекомендациях"
+    }
+  },
+  {
+    "model": "tariffs.tarifffeature",
+    "pk": 10,
+    "fields": {
+      "tariff": 6,
+      "text": "Возможность опубликовать 12 курсов"
+    }
+  },
+  {
+    "model": "tariffs.tarifffeature",
+    "pk": 11,
+    "fields": {
+      "tariff": 6,
+      "text": "Продвижение в рекомендациях"
+    }
+  },
+  {
+    "model": "tariffs.tarifffeature",
+    "pk": 12,
+    "fields": {
+      "tariff": 6,
+      "text": "Все заработаное с курсов в вашу копилку"
+    }
+  },
+  {
+    "model": "tariffs.tarifffeature",
+    "pk": 13,
+    "fields": {
+      "tariff": 7,
+      "text": "Возможность опубликова 8 курсов"
+    }
+  },
+  {
+    "model": "tariffs.tarifffeature",
+    "pk": 14,
+    "fields": {
+      "tariff": 7,
+      "text": "Продвижение в рекомендациях"
+    }
+  },
+  {
+    "model": "tariffs.tarifffeature",
+    "pk": 15,
+    "fields": {
+      "tariff": 8,
+      "text": "Возможность опубликовать 12 курсов"
+    }
+  },
+  {
+    "model": "tariffs.tarifffeature",
+    "pk": 16,
+    "fields": {
+      "tariff": 8,
+      "text": "Продвижение в рекомендациях"
+    }
+  },
+  {
+    "model": "tariffs.tarifffeature",
+    "pk": 17,
+    "fields": {
+      "tariff": 8,
+      "text": "Все заработаное с курсов в вашу копилку"
+    }
+  },
+  {
+    "model": "tariffs.tariff",
+    "pk": 4,
+    "fields": {
+      "name": "Стандарт",
+      "price": 0.0,
+      "discount": 0,
+      "percentage": 20,
+      "is_show": true,
+      "is_active": true,
+      "duration": "TIMELESSLY"
+    }
+  },
+  {
+    "model": "tariffs.tariff",
+    "pk": 5,
+    "fields": {
+      "name": "Старт",
+      "price": 500.0,
+      "discount": 0,
+      "percentage": 10,
+      "is_show": true,
+      "is_active": true,
+      "duration": "MONTHLY"
+    }
+  },
+  {
+    "model": "tariffs.tariff",
+    "pk": 6,
+    "fields": {
+      "name": "Про",
+      "price": 1000.0,
+      "discount": 0,
+      "percentage": 0,
+      "is_show": true,
+      "is_active": true,
+      "duration": "MONTHLY"
+    }
+  },
+  {
+    "model": "tariffs.tariff",
+    "pk": 7,
+    "fields": {
+      "name": "Старт",
+      "price": 6000.0,
+      "discount": 10,
+      "percentage": 10,
+      "is_show": true,
+      "is_active": true,
+      "duration": "YEARLY"
+    }
+  },
+  {
+    "model": "tariffs.tariff",
+    "pk": 8,
+    "fields": {
+      "name": "Про",
+      "price": 12000.0,
+      "discount": 10,
+      "percentage": 0,
+      "is_show": true,
+      "is_active": true,
+      "duration": "YEARLY"
+    }
+  }
+]

@@ -1,0 +1,52 @@
+$xs: 600px;
+$sm: 960px;
+$md: 1280px;
+$lg: 1920px;
+$xl: 2560px;
+
+// Extra small - < 600px
+@mixin xs {
+  $max-xs: $xs - 1px;
+  @media (max-width: $max-xs) {
+    @content;
+  }
+}
+
+// Small - < 960px
+@mixin sm {
+  $max-sm: $sm - 1px;
+  @media (max-width: $max-sm) {
+    @content;
+  }
+}
+
+// Medium - < 1280px
+@mixin md {
+  $max-md: $md - 1px;
+  @media (max-width: $max-md) {
+    @content;
+  }
+}
+
+// Large - < 1920px
+@mixin lg {
+  $max-lg: $lg - 1px;
+  @media (max-width: $max-lg) {
+    @content;
+  }
+}
+
+// Extra large - < 2560px
+@mixin xl {
+  $max-xl: $xl - 1px;
+  @media (max-width: $max-xl) {
+    @content;
+  }
+}
+
+// Extra extra large - >= 2560px
+@mixin xxl {
+  @media (min-width: $xl) {
+    @content;
+  }
+}

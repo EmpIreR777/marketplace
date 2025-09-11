@@ -1,0 +1,57 @@
+stages:
+  - deploy
+
+variables:
+  DOCKER_BUILDKIT: 1
+  GIT_SSL_NO_VERIFY: "true"
+
+# Шаблон для развертывания
+.deploy_template: &deploy_template
+  stage: deploy
+  script:
+    - echo "Развертывание в среде $ENVIRONMENT..."
+    - docker system prune -f
+    - apk add --no-cache curl bind-tools
+    - chmod -R 755 ./backend ./frontend
+    # Копируем .env файлы для backend и frontend
+    - cp ./backend/.env.$ENVIRONMENT ./backend/.env
+    - cp ./frontend/.env.$ENVIRONMENT ./frontend/.env
+    # Останавливаем и удаляем существующие контейнеры
+    - docker compose -f docker-compose-$ENVIRONMENT.yml down --remove-orphans
+    # Запускаем контейнеры с пересборкой
+    - docker compose -f docker-compose-$ENVIRONMENT.yml up -d --build
+  tags:
+    - $ENVIRONMENT
+
+deploy-dev:
+  <<: *deploy_template
+  variables:
+    ENVIRONMENT: dev
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "develop"'
+    - if: '$CI_COMMIT_TAG == "dev"'
+  environment:
+    name: dev
+    url: http://185.174.164.151:13180
+
+deploy-test:
+  <<: *deploy_template
+  variables:
+    ENVIRONMENT: test
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "test"'
+    - if: '$CI_COMMIT_TAG == "test"'
+  environment:
+    name: test
+    url: http://185.174.164.151:12180
+
+deploy-prod:
+  <<: *deploy_template
+  variables:
+    ENVIRONMENT: prod
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "prod"'
+    - if: '$CI_COMMIT_TAG == "prod"'
+  environment:
+    name: prod
+    url: https://edx.ru

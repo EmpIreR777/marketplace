@@ -1,0 +1,16 @@
+@use 'variables';
+
+
+@mixin fonts($font-weight, $font-size, $line-height, $color: var(--Base-color-100)) {
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $color;
+}
+
+
+@mixin display-flex($justify-content: center, $align-items: center) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}

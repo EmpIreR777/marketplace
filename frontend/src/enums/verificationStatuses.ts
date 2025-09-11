@@ -1,0 +1,5 @@
+export enum VerificationStatus {
+  UNVERIFIED = 'UNVERIFIED',
+  ON_VERIFICATION = 'ON_VERIFICATION',
+  VERIFIED = 'VERIFIED',
+}

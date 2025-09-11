@@ -1,0 +1,24 @@
+@use "sass:list";
+@use "sass:map";
+
+$typography: (
+    "h1": (88px, 700, 88px),
+    "h2": (72px, 700, 88px),
+    "h3": (64px, 700, 72px),
+    "h4": (40px, 700, 64px),
+    "h5": (32px, 700, 48px),
+    "h6": (24px, 700, 32px),
+    "lg": (16px, 300, 24px),
+    "lgb": (16px, 700, 24px),
+    "md": (14px, 300, 20px),
+    "mdb": (14px, 700, 20px),
+    "sm": (12px, 300, 16px),
+    "smb": (12px, 700, 16px),
+);
+
+@mixin typography($size-key) {
+    $values: map.get($typography, $size-key);
+    font-size: list.nth($values, 1);
+    font-weight: list.nth($values, 2);
+    line-height: list.nth($values, 3);
+}

@@ -1,0 +1,12 @@
+export enum AccountTypeEnum {
+  ADMIN = 1,
+  STUDENT = 2,
+  AUTHOR = 3
+}
+
+export enum AuthorTypeEnum {
+  INDIVIDUAL = 'INDIVIDUAL',
+  INDIVIDUAL_ENTREPRENEUR = 'INDIVIDUAL_ENTREPRENEUR',
+  ORGANIZATION = 'ORGANIZATION',
+  SCHOOL = 'SCHOOL',
+}

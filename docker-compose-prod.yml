@@ -1,0 +1,96 @@
+services:
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    container_name: prod_nginx
+    restart: always
+    depends_on:
+      - frontend
+      - backend
+    ports:
+      - "443:443"
+      - "80:80"
+    volumes:
+      - ./backend/static:/app/static:ro
+      - ./backend/media:/app/media:ro
+      - ./frontend/dist:/frontend_dist
+    networks:
+      - backend
+
+  redis:
+    image: redis:6
+    container_name: redis_cache
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - backend
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: prod_vue_frontend
+    ports:
+      - "5173:5173"
+    env_file:
+      - ./frontend/.env.prod
+    command: ["sh", "-c", "npm install && npm run build"]
+    networks:
+      - backend
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: prod_django_backend
+    volumes:
+        - ./backend/media:/app/media
+        - ./backend/static:/app/static
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env.prod
+    depends_on:
+      database:
+        condition: service_healthy
+    command: >
+      sh -c "
+      pwd
+      echo 'Ожидание БД...' &&
+      while ! nc -z database 5432; do sleep 1; done &&
+      echo 'БД доступна!' &&
+      python manage.py migrate &&
+      python manage.py collectstatic --noinput &&
+      uvicorn core.asgi:application --host 0.0.0.0 --port 8000"
+    networks:
+      - backend
+
+  database:
+    image: postgres:13
+    container_name: postgres_db
+    restart: always
+    env_file:
+      - ./backend/.env.dev
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    ports:
+      - "54322:5432"
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d marketplace_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  db_data:
+  redis_data:
+
+networks:
+  backend:
+    driver: bridge

@@ -1,0 +1,39 @@
+{
+"forms": [
+	{
+		"_id" : 1,
+		"id" : 1,
+		"type" : "forms",
+		"source" : "edunetwork",
+		"name" : "Очно",
+		"created_at" : "2025-02-28T21:40:06.424Z",
+		"updated_at" : "2025-02-28T21:40:06.424Z"
+	},
+	{
+		"_id" : 2,
+		"id" : 2,
+		"type" : "forms",
+		"source" : "edunetwork",
+		"name" : "Очно-заочно",
+		"created_at" : "2025-02-28T21:40:06.508Z",
+		"updated_at" : "2025-02-28T21:40:06.508Z"
+	},
+	{
+		"_id" : 3,
+		"id" : 3,
+		"type" : "forms",
+		"source" : "edunetwork",
+		"name" : "Заочно",
+		"created_at" : "2025-02-28T21:40:06.548Z",
+		"updated_at" : "2025-02-28T21:40:06.548Z"
+	},
+	{
+		"_id" : 4,
+		"id" : 4,
+		"type" : "forms",
+		"source" : "edunetwork",
+		"name" : "Дистанционно",
+		"created_at" : "2025-02-28T21:40:06.783Z",
+		"updated_at" : "2025-02-28T21:40:06.783Z"
+	}
+]}

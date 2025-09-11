@@ -1,0 +1,99 @@
+@use 'variables';
+@use 'vars' as *;
+@use 'typography' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: var(--color-background);
+  min-height: 100vh;
+  color: $base;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Geologica', sans-serif;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &.fixed-scroll {
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.v-application {
+  color: $base !important;
+}
+
+@media (min-width: 2560px) {
+  .v-container {
+    max-width: 1248px !important;
+  }
+}
+
+@media (min-width: 1920px) {
+  .v-container {
+    max-width: 1248px !important;
+  }
+}
+@media (min-width: 1280px) {
+  .v-container {
+    max-width: 1248px !important;
+  }
+}
+
+.underline-link {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: $base-40;
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover {
+    color: $base-80;
+  }
+
+  &.active {
+    color: $base;
+  }
+}
+
+.v-messages__message {
+  @include typography('sm');
+}
+
+.html-reset {
+  $elements:
+    h1, h2, h3, h4, h5, h6, p, ul, ol, li, a, table, tr, td, th, div, span, blockquote, img, strong,
+    em, code, pre;
+
+  #{$elements} {
+    all: revert;
+  }
+
+  a {
+    &:hover {
+      text-decoration: revert;
+    }
+  }
+
+  ul,
+  ol {
+    li {
+      margin: revert;
+      padding: revert;
+    }
+  }
+}

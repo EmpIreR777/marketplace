@@ -1,0 +1,2388 @@
+{
+"metros": [
+	{
+		"_id" : 1,
+		"id" : 2,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Черкизовская",
+		"created_at" : "2025-02-28T16:28:59.065Z",
+		"updated_at" : "2025-02-28T16:28:59.065Z"
+	},
+	{
+		"_id" : 2,
+		"id" : 3,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Преображенская площадь",
+		"created_at" : "2025-02-28T16:28:59.119Z",
+		"updated_at" : "2025-02-28T16:28:59.119Z"
+	},
+	{
+		"_id" : 3,
+		"id" : 5,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Красносельская",
+		"created_at" : "2025-02-28T16:28:59.156Z",
+		"updated_at" : "2025-02-28T16:28:59.156Z"
+	},
+	{
+		"_id" : 4,
+		"id" : 6,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Комсомольская",
+		"created_at" : "2025-02-28T16:28:59.197Z",
+		"updated_at" : "2025-02-28T16:28:59.197Z"
+	},
+	{
+		"_id" : 5,
+		"id" : 7,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Красные ворота",
+		"created_at" : "2025-02-28T16:28:59.338Z",
+		"updated_at" : "2025-02-28T16:28:59.338Z"
+	},
+	{
+		"_id" : 6,
+		"id" : 8,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Чистые пруды",
+		"created_at" : "2025-02-28T16:28:59.390Z",
+		"updated_at" : "2025-02-28T16:28:59.390Z"
+	},
+	{
+		"_id" : 7,
+		"id" : 12,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Кропоткинская",
+		"created_at" : "2025-02-28T16:28:59.426Z",
+		"updated_at" : "2025-02-28T16:28:59.426Z"
+	},
+	{
+		"_id" : 8,
+		"id" : 13,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Парк Культуры",
+		"created_at" : "2025-02-28T16:28:59.467Z",
+		"updated_at" : "2025-02-28T16:28:59.467Z"
+	},
+	{
+		"_id" : 9,
+		"id" : 14,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Фрунзенская",
+		"created_at" : "2025-02-28T16:28:59.500Z",
+		"updated_at" : "2025-02-28T16:28:59.500Z"
+	},
+	{
+		"_id" : 10,
+		"id" : 15,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Спортивная",
+		"created_at" : "2025-02-28T16:28:59.536Z",
+		"updated_at" : "2025-02-28T16:28:59.536Z"
+	},
+	{
+		"_id" : 11,
+		"id" : 16,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Воробьёвы горы",
+		"created_at" : "2025-02-28T16:28:59.571Z",
+		"updated_at" : "2025-02-28T16:28:59.571Z"
+	},
+	{
+		"_id" : 12,
+		"id" : 17,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Университет",
+		"created_at" : "2025-02-28T16:28:59.615Z",
+		"updated_at" : "2025-02-28T16:28:59.615Z"
+	},
+	{
+		"_id" : 13,
+		"id" : 18,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Проспект Вернадского",
+		"created_at" : "2025-02-28T16:28:59.651Z",
+		"updated_at" : "2025-02-28T16:28:59.651Z"
+	},
+	{
+		"_id" : 14,
+		"id" : 19,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Юго-Западная",
+		"created_at" : "2025-02-28T16:28:59.689Z",
+		"updated_at" : "2025-02-28T16:28:59.689Z"
+	},
+	{
+		"_id" : 15,
+		"id" : 20,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Речной вокзал",
+		"created_at" : "2025-02-28T16:28:59.732Z",
+		"updated_at" : "2025-02-28T16:28:59.732Z"
+	},
+	{
+		"_id" : 16,
+		"id" : 21,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Водный стадион",
+		"created_at" : "2025-02-28T16:28:59.774Z",
+		"updated_at" : "2025-02-28T16:28:59.774Z"
+	},
+	{
+		"_id" : 17,
+		"id" : 22,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Войковская",
+		"created_at" : "2025-02-28T16:28:59.808Z",
+		"updated_at" : "2025-02-28T16:28:59.809Z"
+	},
+	{
+		"_id" : 18,
+		"id" : 23,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Сокол",
+		"created_at" : "2025-02-28T16:28:59.843Z",
+		"updated_at" : "2025-02-28T16:28:59.843Z"
+	},
+	{
+		"_id" : 19,
+		"id" : 24,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Аэропорт",
+		"created_at" : "2025-02-28T16:28:59.877Z",
+		"updated_at" : "2025-02-28T16:28:59.877Z"
+	},
+	{
+		"_id" : 20,
+		"id" : 25,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Динамо",
+		"created_at" : "2025-02-28T16:28:59.914Z",
+		"updated_at" : "2025-02-28T16:28:59.914Z"
+	},
+	{
+		"_id" : 21,
+		"id" : 26,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Белорусская ",
+		"created_at" : "2025-02-28T16:28:59.947Z",
+		"updated_at" : "2025-02-28T16:28:59.947Z"
+	},
+	{
+		"_id" : 22,
+		"id" : 27,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Маяковская",
+		"created_at" : "2025-02-28T16:28:59.980Z",
+		"updated_at" : "2025-02-28T16:28:59.980Z"
+	},
+	{
+		"_id" : 23,
+		"id" : 28,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Тверская",
+		"created_at" : "2025-02-28T16:29:00.014Z",
+		"updated_at" : "2025-02-28T16:29:00.014Z"
+	},
+	{
+		"_id" : 24,
+		"id" : 29,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Театральная",
+		"created_at" : "2025-02-28T16:29:00.113Z",
+		"updated_at" : "2025-02-28T16:29:00.113Z"
+	},
+	{
+		"_id" : 25,
+		"id" : 30,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Новокузнецкая",
+		"created_at" : "2025-02-28T16:29:00.148Z",
+		"updated_at" : "2025-02-28T16:29:00.148Z"
+	},
+	{
+		"_id" : 26,
+		"id" : 31,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Павелецкая",
+		"created_at" : "2025-02-28T16:29:00.183Z",
+		"updated_at" : "2025-02-28T16:29:00.183Z"
+	},
+	{
+		"_id" : 27,
+		"id" : 32,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Автозаводская",
+		"created_at" : "2025-02-28T16:29:00.221Z",
+		"updated_at" : "2025-02-28T16:29:00.221Z"
+	},
+	{
+		"_id" : 28,
+		"id" : 33,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Коломенская",
+		"created_at" : "2025-02-28T16:29:00.256Z",
+		"updated_at" : "2025-02-28T16:29:00.256Z"
+	},
+	{
+		"_id" : 29,
+		"id" : 34,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Каширская",
+		"created_at" : "2025-02-28T16:29:00.293Z",
+		"updated_at" : "2025-02-28T16:29:00.293Z"
+	},
+	{
+		"_id" : 30,
+		"id" : 36,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Царицыно",
+		"created_at" : "2025-02-28T16:29:00.326Z",
+		"updated_at" : "2025-02-28T16:29:00.326Z"
+	},
+	{
+		"_id" : 31,
+		"id" : 37,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Орехово",
+		"created_at" : "2025-02-28T16:29:00.362Z",
+		"updated_at" : "2025-02-28T16:29:00.362Z"
+	},
+	{
+		"_id" : 32,
+		"id" : 39,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Красногвардейская",
+		"created_at" : "2025-02-28T16:29:00.399Z",
+		"updated_at" : "2025-02-28T16:29:00.399Z"
+	},
+	{
+		"_id" : 33,
+		"id" : 40,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Щёлковская",
+		"created_at" : "2025-02-28T16:29:00.442Z",
+		"updated_at" : "2025-02-28T16:29:00.442Z"
+	},
+	{
+		"_id" : 34,
+		"id" : 41,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Первомайская",
+		"created_at" : "2025-02-28T16:29:00.473Z",
+		"updated_at" : "2025-02-28T16:29:00.473Z"
+	},
+	{
+		"_id" : 35,
+		"id" : 42,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Измайловская",
+		"created_at" : "2025-02-28T16:29:00.509Z",
+		"updated_at" : "2025-02-28T16:29:00.509Z"
+	},
+	{
+		"_id" : 36,
+		"id" : 43,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Партизанская",
+		"created_at" : "2025-02-28T16:29:00.543Z",
+		"updated_at" : "2025-02-28T16:29:00.543Z"
+	},
+	{
+		"_id" : 37,
+		"id" : 44,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Семеновская",
+		"created_at" : "2025-02-28T16:29:00.582Z",
+		"updated_at" : "2025-02-28T16:29:00.582Z"
+	},
+	{
+		"_id" : 38,
+		"id" : 45,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Электрозаводская",
+		"created_at" : "2025-02-28T16:29:00.617Z",
+		"updated_at" : "2025-02-28T16:29:00.617Z"
+	},
+	{
+		"_id" : 39,
+		"id" : 46,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Бауманская",
+		"created_at" : "2025-02-28T16:29:00.656Z",
+		"updated_at" : "2025-02-28T16:29:00.656Z"
+	},
+	{
+		"_id" : 40,
+		"id" : 47,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Курская",
+		"created_at" : "2025-02-28T16:29:00.693Z",
+		"updated_at" : "2025-02-28T16:29:00.693Z"
+	},
+	{
+		"_id" : 41,
+		"id" : 48,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Площадь Революции",
+		"created_at" : "2025-02-28T16:29:00.838Z",
+		"updated_at" : "2025-02-28T16:29:00.838Z"
+	},
+	{
+		"_id" : 42,
+		"id" : 49,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Арбатская",
+		"created_at" : "2025-02-28T16:29:00.880Z",
+		"updated_at" : "2025-02-28T16:29:00.880Z"
+	},
+	{
+		"_id" : 43,
+		"id" : 50,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Смоленская",
+		"created_at" : "2025-02-28T16:29:00.917Z",
+		"updated_at" : "2025-02-28T16:29:00.917Z"
+	},
+	{
+		"_id" : 44,
+		"id" : 53,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Славянский бульвар",
+		"created_at" : "2025-02-28T16:29:00.952Z",
+		"updated_at" : "2025-02-28T16:29:00.952Z"
+	},
+	{
+		"_id" : 45,
+		"id" : 54,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Кунцевская",
+		"created_at" : "2025-02-28T16:29:00.989Z",
+		"updated_at" : "2025-02-28T16:29:00.989Z"
+	},
+	{
+		"_id" : 46,
+		"id" : 55,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Молодёжная",
+		"created_at" : "2025-02-28T16:29:01.025Z",
+		"updated_at" : "2025-02-28T16:29:01.025Z"
+	},
+	{
+		"_id" : 47,
+		"id" : 56,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Крылатское",
+		"created_at" : "2025-02-28T16:29:01.057Z",
+		"updated_at" : "2025-02-28T16:29:01.057Z"
+	},
+	{
+		"_id" : 48,
+		"id" : 57,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Строгино",
+		"created_at" : "2025-02-28T16:29:01.091Z",
+		"updated_at" : "2025-02-28T16:29:01.091Z"
+	},
+	{
+		"_id" : 49,
+		"id" : 60,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Митино",
+		"created_at" : "2025-02-28T16:29:01.123Z",
+		"updated_at" : "2025-02-28T16:29:01.123Z"
+	},
+	{
+		"_id" : 50,
+		"id" : 62,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Арбатская",
+		"created_at" : "2025-02-28T16:29:01.156Z",
+		"updated_at" : "2025-02-28T16:29:01.156Z"
+	},
+	{
+		"_id" : 51,
+		"id" : 65,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Выставочная",
+		"created_at" : "2025-02-28T16:29:01.189Z",
+		"updated_at" : "2025-02-28T16:29:01.189Z"
+	},
+	{
+		"_id" : 52,
+		"id" : 66,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Международная",
+		"created_at" : "2025-02-28T16:29:01.225Z",
+		"updated_at" : "2025-02-28T16:29:01.225Z"
+	},
+	{
+		"_id" : 53,
+		"id" : 67,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Студенческая",
+		"created_at" : "2025-02-28T16:29:01.348Z",
+		"updated_at" : "2025-02-28T16:29:01.348Z"
+	},
+	{
+		"_id" : 54,
+		"id" : 68,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Кутузовская",
+		"created_at" : "2025-02-28T16:29:01.467Z",
+		"updated_at" : "2025-02-28T16:29:01.467Z"
+	},
+	{
+		"_id" : 55,
+		"id" : 70,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Багратионовская",
+		"created_at" : "2025-02-28T16:29:01.515Z",
+		"updated_at" : "2025-02-28T16:29:01.515Z"
+	},
+	{
+		"_id" : 56,
+		"id" : 72,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Пионерская",
+		"created_at" : "2025-02-28T16:29:01.547Z",
+		"updated_at" : "2025-02-28T16:29:01.547Z"
+	},
+	{
+		"_id" : 57,
+		"id" : 73,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Кунцевская",
+		"created_at" : "2025-02-28T16:29:01.597Z",
+		"updated_at" : "2025-02-28T16:29:01.597Z"
+	},
+	{
+		"_id" : 58,
+		"id" : 74,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Парк культуры",
+		"created_at" : "2025-02-28T16:29:01.640Z",
+		"updated_at" : "2025-02-28T16:29:01.640Z"
+	},
+	{
+		"_id" : 59,
+		"id" : 75,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Октябрьская ",
+		"created_at" : "2025-02-28T16:29:01.680Z",
+		"updated_at" : "2025-02-28T16:29:01.680Z"
+	},
+	{
+		"_id" : 60,
+		"id" : 76,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Добрынинская",
+		"created_at" : "2025-02-28T16:29:01.715Z",
+		"updated_at" : "2025-02-28T16:29:01.715Z"
+	},
+	{
+		"_id" : 61,
+		"id" : 78,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Таганская",
+		"created_at" : "2025-02-28T16:29:01.751Z",
+		"updated_at" : "2025-02-28T16:29:01.751Z"
+	},
+	{
+		"_id" : 62,
+		"id" : 79,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Курская",
+		"created_at" : "2025-02-28T16:29:01.791Z",
+		"updated_at" : "2025-02-28T16:29:01.791Z"
+	},
+	{
+		"_id" : 63,
+		"id" : 80,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Комсомольская",
+		"created_at" : "2025-02-28T16:29:01.825Z",
+		"updated_at" : "2025-02-28T16:29:01.825Z"
+	},
+	{
+		"_id" : 64,
+		"id" : 81,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Проспект Мира",
+		"created_at" : "2025-02-28T16:29:01.864Z",
+		"updated_at" : "2025-02-28T16:29:01.864Z"
+	},
+	{
+		"_id" : 65,
+		"id" : 82,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Новослободская",
+		"created_at" : "2025-02-28T16:29:01.898Z",
+		"updated_at" : "2025-02-28T16:29:01.898Z"
+	},
+	{
+		"_id" : 66,
+		"id" : 84,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Краснопресненская",
+		"created_at" : "2025-02-28T16:29:01.942Z",
+		"updated_at" : "2025-02-28T16:29:01.942Z"
+	},
+	{
+		"_id" : 67,
+		"id" : 85,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Киевская",
+		"created_at" : "2025-02-28T16:29:01.983Z",
+		"updated_at" : "2025-02-28T16:29:01.983Z"
+	},
+	{
+		"_id" : 68,
+		"id" : 86,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Медведково",
+		"created_at" : "2025-02-28T16:29:02.023Z",
+		"updated_at" : "2025-02-28T16:29:02.023Z"
+	},
+	{
+		"_id" : 69,
+		"id" : 87,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Бабушкинская",
+		"created_at" : "2025-02-28T16:29:02.060Z",
+		"updated_at" : "2025-02-28T16:29:02.060Z"
+	},
+	{
+		"_id" : 70,
+		"id" : 88,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Свиблово",
+		"created_at" : "2025-02-28T16:29:02.099Z",
+		"updated_at" : "2025-02-28T16:29:02.099Z"
+	},
+	{
+		"_id" : 71,
+		"id" : 89,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Ботанический сад",
+		"created_at" : "2025-02-28T16:29:02.141Z",
+		"updated_at" : "2025-02-28T16:29:02.141Z"
+	},
+	{
+		"_id" : 72,
+		"id" : 90,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "ВДНХ",
+		"created_at" : "2025-02-28T16:29:02.180Z",
+		"updated_at" : "2025-02-28T16:29:02.180Z"
+	},
+	{
+		"_id" : 73,
+		"id" : 91,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Алексеевская",
+		"created_at" : "2025-02-28T16:29:02.215Z",
+		"updated_at" : "2025-02-28T16:29:02.215Z"
+	},
+	{
+		"_id" : 74,
+		"id" : 92,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Рижская",
+		"created_at" : "2025-02-28T16:29:02.266Z",
+		"updated_at" : "2025-02-28T16:29:02.266Z"
+	},
+	{
+		"_id" : 75,
+		"id" : 93,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Проспект Мира",
+		"created_at" : "2025-02-28T16:29:02.479Z",
+		"updated_at" : "2025-02-28T16:29:02.479Z"
+	},
+	{
+		"_id" : 76,
+		"id" : 94,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Сухаревская",
+		"created_at" : "2025-02-28T16:29:02.519Z",
+		"updated_at" : "2025-02-28T16:29:02.519Z"
+	},
+	{
+		"_id" : 77,
+		"id" : 95,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Тургеневская",
+		"created_at" : "2025-02-28T16:29:02.556Z",
+		"updated_at" : "2025-02-28T16:29:02.556Z"
+	},
+	{
+		"_id" : 78,
+		"id" : 97,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Третьяковская",
+		"created_at" : "2025-02-28T16:29:02.592Z",
+		"updated_at" : "2025-02-28T16:29:02.592Z"
+	},
+	{
+		"_id" : 79,
+		"id" : 98,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Октябрьская",
+		"created_at" : "2025-02-28T16:29:02.627Z",
+		"updated_at" : "2025-02-28T16:29:02.627Z"
+	},
+	{
+		"_id" : 80,
+		"id" : 99,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Шаболовская",
+		"created_at" : "2025-02-28T16:29:02.659Z",
+		"updated_at" : "2025-02-28T16:29:02.659Z"
+	},
+	{
+		"_id" : 81,
+		"id" : 100,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Ленинский проспект",
+		"created_at" : "2025-02-28T16:29:02.702Z",
+		"updated_at" : "2025-02-28T16:29:02.702Z"
+	},
+	{
+		"_id" : 82,
+		"id" : 101,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Академическая",
+		"created_at" : "2025-02-28T16:29:02.737Z",
+		"updated_at" : "2025-02-28T16:29:02.737Z"
+	},
+	{
+		"_id" : 83,
+		"id" : 103,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Новые Черёмушки",
+		"created_at" : "2025-02-28T16:29:02.771Z",
+		"updated_at" : "2025-02-28T16:29:02.771Z"
+	},
+	{
+		"_id" : 84,
+		"id" : 104,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Калужская",
+		"created_at" : "2025-02-28T16:29:02.804Z",
+		"updated_at" : "2025-02-28T16:29:02.804Z"
+	},
+	{
+		"_id" : 85,
+		"id" : 105,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Беляево",
+		"created_at" : "2025-02-28T16:29:02.841Z",
+		"updated_at" : "2025-02-28T16:29:02.841Z"
+	},
+	{
+		"_id" : 86,
+		"id" : 110,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Планерная",
+		"created_at" : "2025-02-28T16:29:02.879Z",
+		"updated_at" : "2025-02-28T16:29:02.879Z"
+	},
+	{
+		"_id" : 87,
+		"id" : 111,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Сходненская",
+		"created_at" : "2025-02-28T16:29:02.910Z",
+		"updated_at" : "2025-02-28T16:29:02.910Z"
+	},
+	{
+		"_id" : 88,
+		"id" : 112,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Тушинская",
+		"created_at" : "2025-02-28T16:29:02.949Z",
+		"updated_at" : "2025-02-28T16:29:02.949Z"
+	},
+	{
+		"_id" : 89,
+		"id" : 113,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Щукинская",
+		"created_at" : "2025-02-28T16:29:02.997Z",
+		"updated_at" : "2025-02-28T16:29:02.997Z"
+	},
+	{
+		"_id" : 90,
+		"id" : 114,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Октябрьское Поле",
+		"created_at" : "2025-02-28T16:29:03.045Z",
+		"updated_at" : "2025-02-28T16:29:03.045Z"
+	},
+	{
+		"_id" : 91,
+		"id" : 115,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Полежаевская",
+		"created_at" : "2025-02-28T16:29:03.196Z",
+		"updated_at" : "2025-02-28T16:29:03.196Z"
+	},
+	{
+		"_id" : 92,
+		"id" : 116,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Беговая",
+		"created_at" : "2025-02-28T16:29:03.229Z",
+		"updated_at" : "2025-02-28T16:29:03.229Z"
+	},
+	{
+		"_id" : 93,
+		"id" : 117,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Улица 1905 года",
+		"created_at" : "2025-02-28T16:29:03.273Z",
+		"updated_at" : "2025-02-28T16:29:03.273Z"
+	},
+	{
+		"_id" : 94,
+		"id" : 118,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Баррикадная",
+		"created_at" : "2025-02-28T16:29:03.344Z",
+		"updated_at" : "2025-02-28T16:29:03.344Z"
+	},
+	{
+		"_id" : 95,
+		"id" : 120,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Кузнецкий мост",
+		"created_at" : "2025-02-28T16:29:03.381Z",
+		"updated_at" : "2025-02-28T16:29:03.381Z"
+	},
+	{
+		"_id" : 96,
+		"id" : 121,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Китай-город",
+		"created_at" : "2025-02-28T16:29:03.412Z",
+		"updated_at" : "2025-02-28T16:29:03.412Z"
+	},
+	{
+		"_id" : 97,
+		"id" : 122,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Таганская",
+		"created_at" : "2025-02-28T16:29:03.453Z",
+		"updated_at" : "2025-02-28T16:29:03.453Z"
+	},
+	{
+		"_id" : 98,
+		"id" : 124,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Волгоградский проспект",
+		"created_at" : "2025-02-28T16:29:03.488Z",
+		"updated_at" : "2025-02-28T16:29:03.488Z"
+	},
+	{
+		"_id" : 99,
+		"id" : 125,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Текстильщики",
+		"created_at" : "2025-02-28T16:29:03.523Z",
+		"updated_at" : "2025-02-28T16:29:03.523Z"
+	},
+	{
+		"_id" : 100,
+		"id" : 126,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Кузьминки",
+		"created_at" : "2025-02-28T16:29:03.558Z",
+		"updated_at" : "2025-02-28T16:29:03.558Z"
+	},
+	{
+		"_id" : 101,
+		"id" : 127,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Рязанский проспект",
+		"created_at" : "2025-02-28T16:29:03.603Z",
+		"updated_at" : "2025-02-28T16:29:03.603Z"
+	},
+	{
+		"_id" : 102,
+		"id" : 134,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Выхино",
+		"created_at" : "2025-02-28T16:29:03.645Z",
+		"updated_at" : "2025-02-28T16:29:03.645Z"
+	},
+	{
+		"_id" : 103,
+		"id" : 135,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Третьяковская",
+		"created_at" : "2025-02-28T16:29:03.684Z",
+		"updated_at" : "2025-02-28T16:29:03.684Z"
+	},
+	{
+		"_id" : 104,
+		"id" : 136,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Марксистская",
+		"created_at" : "2025-02-28T16:29:03.724Z",
+		"updated_at" : "2025-02-28T16:29:03.724Z"
+	},
+	{
+		"_id" : 105,
+		"id" : 137,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Площадь Ильича",
+		"created_at" : "2025-02-28T16:29:03.768Z",
+		"updated_at" : "2025-02-28T16:29:03.768Z"
+	},
+	{
+		"_id" : 106,
+		"id" : 138,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Авиамоторная",
+		"created_at" : "2025-02-28T16:29:03.801Z",
+		"updated_at" : "2025-02-28T16:29:03.801Z"
+	},
+	{
+		"_id" : 107,
+		"id" : 140,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Перово",
+		"created_at" : "2025-02-28T16:29:03.851Z",
+		"updated_at" : "2025-02-28T16:29:03.851Z"
+	},
+	{
+		"_id" : 108,
+		"id" : 142,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Алтуфьево",
+		"created_at" : "2025-02-28T16:29:04.083Z",
+		"updated_at" : "2025-02-28T16:29:04.083Z"
+	},
+	{
+		"_id" : 109,
+		"id" : 143,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Бибирево",
+		"created_at" : "2025-02-28T16:29:04.115Z",
+		"updated_at" : "2025-02-28T16:29:04.115Z"
+	},
+	{
+		"_id" : 110,
+		"id" : 144,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Отрадное",
+		"created_at" : "2025-02-28T16:29:04.153Z",
+		"updated_at" : "2025-02-28T16:29:04.153Z"
+	},
+	{
+		"_id" : 111,
+		"id" : 146,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Петровско-Разумовская",
+		"created_at" : "2025-02-28T16:29:04.190Z",
+		"updated_at" : "2025-02-28T16:29:04.190Z"
+	},
+	{
+		"_id" : 112,
+		"id" : 147,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Тимирязевская",
+		"created_at" : "2025-02-28T16:29:04.223Z",
+		"updated_at" : "2025-02-28T16:29:04.223Z"
+	},
+	{
+		"_id" : 113,
+		"id" : 148,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Дмитровская",
+		"created_at" : "2025-02-28T16:29:04.259Z",
+		"updated_at" : "2025-02-28T16:29:04.259Z"
+	},
+	{
+		"_id" : 114,
+		"id" : 149,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Савёловская",
+		"created_at" : "2025-02-28T16:29:04.292Z",
+		"updated_at" : "2025-02-28T16:29:04.292Z"
+	},
+	{
+		"_id" : 115,
+		"id" : 150,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Менделеевская",
+		"created_at" : "2025-02-28T16:29:04.336Z",
+		"updated_at" : "2025-02-28T16:29:04.336Z"
+	},
+	{
+		"_id" : 116,
+		"id" : 151,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Цветной бульвар",
+		"created_at" : "2025-02-28T16:29:04.374Z",
+		"updated_at" : "2025-02-28T16:29:04.374Z"
+	},
+	{
+		"_id" : 117,
+		"id" : 153,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Боровицкая",
+		"created_at" : "2025-02-28T16:29:04.410Z",
+		"updated_at" : "2025-02-28T16:29:04.410Z"
+	},
+	{
+		"_id" : 118,
+		"id" : 155,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Серпуховская",
+		"created_at" : "2025-02-28T16:29:04.443Z",
+		"updated_at" : "2025-02-28T16:29:04.443Z"
+	},
+	{
+		"_id" : 119,
+		"id" : 156,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Тульская",
+		"created_at" : "2025-02-28T16:29:04.487Z",
+		"updated_at" : "2025-02-28T16:29:04.487Z"
+	},
+	{
+		"_id" : 120,
+		"id" : 157,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Нагатинская",
+		"created_at" : "2025-02-28T16:29:04.522Z",
+		"updated_at" : "2025-02-28T16:29:04.522Z"
+	},
+	{
+		"_id" : 121,
+		"id" : 159,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Нахимовский проспект",
+		"created_at" : "2025-02-28T16:29:04.556Z",
+		"updated_at" : "2025-02-28T16:29:04.556Z"
+	},
+	{
+		"_id" : 122,
+		"id" : 163,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Пражская",
+		"created_at" : "2025-02-28T16:29:04.589Z",
+		"updated_at" : "2025-02-28T16:29:04.589Z"
+	},
+	{
+		"_id" : 123,
+		"id" : 164,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Улица Академика Янгеля",
+		"created_at" : "2025-02-28T16:29:04.625Z",
+		"updated_at" : "2025-02-28T16:29:04.625Z"
+	},
+	{
+		"_id" : 124,
+		"id" : 167,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Марьина Роща",
+		"created_at" : "2025-02-28T16:29:04.658Z",
+		"updated_at" : "2025-02-28T16:29:04.658Z"
+	},
+	{
+		"_id" : 125,
+		"id" : 168,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Достоевская",
+		"created_at" : "2025-02-28T16:29:04.704Z",
+		"updated_at" : "2025-02-28T16:29:04.704Z"
+	},
+	{
+		"_id" : 126,
+		"id" : 171,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Чкаловская",
+		"created_at" : "2025-02-28T16:29:04.736Z",
+		"updated_at" : "2025-02-28T16:29:04.736Z"
+	},
+	{
+		"_id" : 127,
+		"id" : 172,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Римская",
+		"created_at" : "2025-02-28T16:29:04.780Z",
+		"updated_at" : "2025-02-28T16:29:04.780Z"
+	},
+	{
+		"_id" : 128,
+		"id" : 173,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Крестьянская застава",
+		"created_at" : "2025-02-28T16:29:04.815Z",
+		"updated_at" : "2025-02-28T16:29:04.815Z"
+	},
+	{
+		"_id" : 129,
+		"id" : 176,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Печатники",
+		"created_at" : "2025-02-28T16:29:04.857Z",
+		"updated_at" : "2025-02-28T16:29:04.857Z"
+	},
+	{
+		"_id" : 130,
+		"id" : 177,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Волжская",
+		"created_at" : "2025-02-28T16:29:04.891Z",
+		"updated_at" : "2025-02-28T16:29:04.891Z"
+	},
+	{
+		"_id" : 131,
+		"id" : 178,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Люблино",
+		"created_at" : "2025-02-28T16:29:04.931Z",
+		"updated_at" : "2025-02-28T16:29:04.931Z"
+	},
+	{
+		"_id" : 132,
+		"id" : 179,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Братиславская",
+		"created_at" : "2025-02-28T16:29:04.964Z",
+		"updated_at" : "2025-02-28T16:29:04.964Z"
+	},
+	{
+		"_id" : 133,
+		"id" : 182,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Варшавская",
+		"created_at" : "2025-02-28T16:29:04.996Z",
+		"updated_at" : "2025-02-28T16:29:04.996Z"
+	},
+	{
+		"_id" : 134,
+		"id" : 184,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Улица Старокачаловская",
+		"created_at" : "2025-02-28T16:29:05.029Z",
+		"updated_at" : "2025-02-28T16:29:05.029Z"
+	},
+	{
+		"_id" : 135,
+		"id" : 185,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Улица Скобелевская",
+		"created_at" : "2025-02-28T16:29:05.063Z",
+		"updated_at" : "2025-02-28T16:29:05.063Z"
+	},
+	{
+		"_id" : 136,
+		"id" : 186,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Бульвар Адмирала Ушакова",
+		"created_at" : "2025-02-28T16:29:05.111Z",
+		"updated_at" : "2025-02-28T16:29:05.111Z"
+	},
+	{
+		"_id" : 137,
+		"id" : 189,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Пятницкое шоссе",
+		"created_at" : "2025-02-28T16:29:05.189Z",
+		"updated_at" : "2025-02-28T16:29:05.189Z"
+	},
+	{
+		"_id" : 138,
+		"id" : 190,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Бульвар Рокоссовского",
+		"created_at" : "2025-02-28T16:29:05.224Z",
+		"updated_at" : "2025-02-28T16:29:05.225Z"
+	},
+	{
+		"_id" : 139,
+		"id" : 191,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Тропарёво",
+		"created_at" : "2025-02-28T16:29:05.263Z",
+		"updated_at" : "2025-02-28T16:29:05.263Z"
+	},
+	{
+		"_id" : 140,
+		"id" : 193,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Шипиловская",
+		"created_at" : "2025-02-28T16:29:05.303Z",
+		"updated_at" : "2025-02-28T16:29:05.303Z"
+	},
+	{
+		"_id" : 141,
+		"id" : 194,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Кутузовская",
+		"created_at" : "2025-02-28T16:29:05.337Z",
+		"updated_at" : "2025-02-28T16:29:05.337Z"
+	},
+	{
+		"_id" : 142,
+		"id" : 195,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Верхние Котлы",
+		"created_at" : "2025-02-28T16:29:05.371Z",
+		"updated_at" : "2025-02-28T16:29:05.371Z"
+	},
+	{
+		"_id" : 143,
+		"id" : 196,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Коптево",
+		"created_at" : "2025-02-28T16:29:05.403Z",
+		"updated_at" : "2025-02-28T16:29:05.403Z"
+	},
+	{
+		"_id" : 144,
+		"id" : 197,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Стрешнево",
+		"created_at" : "2025-02-28T16:29:05.436Z",
+		"updated_at" : "2025-02-28T16:29:05.436Z"
+	},
+	{
+		"_id" : 145,
+		"id" : 198,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "ЗИЛ",
+		"created_at" : "2025-02-28T16:29:05.471Z",
+		"updated_at" : "2025-02-28T16:29:05.471Z"
+	},
+	{
+		"_id" : 146,
+		"id" : 199,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Локомотив",
+		"created_at" : "2025-02-28T16:29:05.581Z",
+		"updated_at" : "2025-02-28T16:29:05.581Z"
+	},
+	{
+		"_id" : 147,
+		"id" : 200,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Измайлово",
+		"created_at" : "2025-02-28T16:29:05.615Z",
+		"updated_at" : "2025-02-28T16:29:05.615Z"
+	},
+	{
+		"_id" : 148,
+		"id" : 201,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Андроновка",
+		"created_at" : "2025-02-28T16:29:05.649Z",
+		"updated_at" : "2025-02-28T16:29:05.649Z"
+	},
+	{
+		"_id" : 149,
+		"id" : 202,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Нижегородская",
+		"created_at" : "2025-02-28T16:29:05.681Z",
+		"updated_at" : "2025-02-28T16:29:05.681Z"
+	},
+	{
+		"_id" : 150,
+		"id" : 203,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Панфиловская",
+		"created_at" : "2025-02-28T16:29:05.715Z",
+		"updated_at" : "2025-02-28T16:29:05.715Z"
+	},
+	{
+		"_id" : 151,
+		"id" : 204,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Белокаменная",
+		"created_at" : "2025-02-28T16:29:05.752Z",
+		"updated_at" : "2025-02-28T16:29:05.752Z"
+	},
+	{
+		"_id" : 152,
+		"id" : 205,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Ломоносовский проспект",
+		"created_at" : "2025-02-28T16:29:05.783Z",
+		"updated_at" : "2025-02-28T16:29:05.783Z"
+	},
+	{
+		"_id" : 153,
+		"id" : 206,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Петровско-Разумовская",
+		"created_at" : "2025-02-28T16:29:05.818Z",
+		"updated_at" : "2025-02-28T16:29:05.818Z"
+	},
+	{
+		"_id" : 154,
+		"id" : 207,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Бутырская",
+		"created_at" : "2025-02-28T16:29:05.851Z",
+		"updated_at" : "2025-02-28T16:29:05.851Z"
+	},
+	{
+		"_id" : 155,
+		"id" : 208,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Фонвизинская",
+		"created_at" : "2025-02-28T16:29:05.888Z",
+		"updated_at" : "2025-02-28T16:29:05.888Z"
+	},
+	{
+		"_id" : 156,
+		"id" : 210,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Бульвар Рокоссовского",
+		"created_at" : "2025-02-28T16:29:05.926Z",
+		"updated_at" : "2025-02-28T16:29:05.926Z"
+	},
+	{
+		"_id" : 157,
+		"id" : 214,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Новокосино",
+		"created_at" : "2025-02-28T16:29:05.963Z",
+		"updated_at" : "2025-02-28T16:29:05.963Z"
+	},
+	{
+		"_id" : 158,
+		"id" : 217,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Пролетарская",
+		"created_at" : "2025-02-28T16:29:06.003Z",
+		"updated_at" : "2025-02-28T16:29:06.003Z"
+	},
+	{
+		"_id" : 159,
+		"id" : 218,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Савеловская",
+		"created_at" : "2025-02-28T16:29:06.073Z",
+		"updated_at" : "2025-02-28T16:29:06.073Z"
+	},
+	{
+		"_id" : 160,
+		"id" : 219,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Мичуринский проспект",
+		"created_at" : "2025-02-28T16:29:06.105Z",
+		"updated_at" : "2025-02-28T16:29:06.105Z"
+	},
+	{
+		"_id" : 161,
+		"id" : 222,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Котельники",
+		"created_at" : "2025-02-28T16:29:06.137Z",
+		"updated_at" : "2025-02-28T16:29:06.137Z"
+	},
+	{
+		"_id" : 162,
+		"id" : 226,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Гражданский проспект",
+		"created_at" : "2025-02-28T16:29:06.171Z",
+		"updated_at" : "2025-02-28T16:29:06.171Z"
+	},
+	{
+		"_id" : 163,
+		"id" : 227,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Академическая",
+		"created_at" : "2025-02-28T16:29:06.205Z",
+		"updated_at" : "2025-02-28T16:29:06.205Z"
+	},
+	{
+		"_id" : 164,
+		"id" : 228,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Политехническая",
+		"created_at" : "2025-02-28T16:29:06.256Z",
+		"updated_at" : "2025-02-28T16:29:06.256Z"
+	},
+	{
+		"_id" : 165,
+		"id" : 229,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Площадь Мужества",
+		"created_at" : "2025-02-28T16:29:06.288Z",
+		"updated_at" : "2025-02-28T16:29:06.288Z"
+	},
+	{
+		"_id" : 166,
+		"id" : 230,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Лесная",
+		"created_at" : "2025-02-28T16:29:06.321Z",
+		"updated_at" : "2025-02-28T16:29:06.321Z"
+	},
+	{
+		"_id" : 167,
+		"id" : 231,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Выборгская",
+		"created_at" : "2025-02-28T16:29:06.354Z",
+		"updated_at" : "2025-02-28T16:29:06.354Z"
+	},
+	{
+		"_id" : 168,
+		"id" : 232,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Площадь Ленина",
+		"created_at" : "2025-02-28T16:29:06.393Z",
+		"updated_at" : "2025-02-28T16:29:06.393Z"
+	},
+	{
+		"_id" : 169,
+		"id" : 233,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Чернышевская",
+		"created_at" : "2025-02-28T16:29:06.423Z",
+		"updated_at" : "2025-02-28T16:29:06.423Z"
+	},
+	{
+		"_id" : 170,
+		"id" : 234,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Площадь Восстания",
+		"created_at" : "2025-02-28T16:29:06.454Z",
+		"updated_at" : "2025-02-28T16:29:06.454Z"
+	},
+	{
+		"_id" : 171,
+		"id" : 235,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Владимирская",
+		"created_at" : "2025-02-28T16:29:06.488Z",
+		"updated_at" : "2025-02-28T16:29:06.488Z"
+	},
+	{
+		"_id" : 172,
+		"id" : 237,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Технологический институт",
+		"created_at" : "2025-02-28T16:29:06.721Z",
+		"updated_at" : "2025-02-28T16:29:06.721Z"
+	},
+	{
+		"_id" : 173,
+		"id" : 238,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Балтийская",
+		"created_at" : "2025-02-28T16:29:06.755Z",
+		"updated_at" : "2025-02-28T16:29:06.755Z"
+	},
+	{
+		"_id" : 174,
+		"id" : 239,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Нарвская",
+		"created_at" : "2025-02-28T16:29:06.797Z",
+		"updated_at" : "2025-02-28T16:29:06.798Z"
+	},
+	{
+		"_id" : 175,
+		"id" : 240,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Кировский завод",
+		"created_at" : "2025-02-28T16:29:06.835Z",
+		"updated_at" : "2025-02-28T16:29:06.835Z"
+	},
+	{
+		"_id" : 176,
+		"id" : 241,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Автово",
+		"created_at" : "2025-02-28T16:29:06.904Z",
+		"updated_at" : "2025-02-28T16:29:06.904Z"
+	},
+	{
+		"_id" : 177,
+		"id" : 243,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Проспект Ветеранов",
+		"created_at" : "2025-02-28T16:29:06.937Z",
+		"updated_at" : "2025-02-28T16:29:06.937Z"
+	},
+	{
+		"_id" : 178,
+		"id" : 245,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Проспект Просвещения",
+		"created_at" : "2025-02-28T16:29:06.981Z",
+		"updated_at" : "2025-02-28T16:29:06.981Z"
+	},
+	{
+		"_id" : 179,
+		"id" : 246,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Озерки",
+		"created_at" : "2025-02-28T16:29:07.015Z",
+		"updated_at" : "2025-02-28T16:29:07.015Z"
+	},
+	{
+		"_id" : 180,
+		"id" : 247,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Удельная",
+		"created_at" : "2025-02-28T16:29:07.067Z",
+		"updated_at" : "2025-02-28T16:29:07.067Z"
+	},
+	{
+		"_id" : 181,
+		"id" : 249,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Чёрная речка",
+		"created_at" : "2025-02-28T16:29:07.109Z",
+		"updated_at" : "2025-02-28T16:29:07.109Z"
+	},
+	{
+		"_id" : 182,
+		"id" : 250,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Петроградская",
+		"created_at" : "2025-02-28T16:29:07.147Z",
+		"updated_at" : "2025-02-28T16:29:07.147Z"
+	},
+	{
+		"_id" : 183,
+		"id" : 251,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Горьковская",
+		"created_at" : "2025-02-28T16:29:07.187Z",
+		"updated_at" : "2025-02-28T16:29:07.187Z"
+	},
+	{
+		"_id" : 184,
+		"id" : 252,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Невский проспект",
+		"created_at" : "2025-02-28T16:29:07.224Z",
+		"updated_at" : "2025-02-28T16:29:07.224Z"
+	},
+	{
+		"_id" : 185,
+		"id" : 253,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Сенная площадь",
+		"created_at" : "2025-02-28T16:29:07.256Z",
+		"updated_at" : "2025-02-28T16:29:07.256Z"
+	},
+	{
+		"_id" : 186,
+		"id" : 254,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Технологический институт",
+		"created_at" : "2025-02-28T16:29:07.299Z",
+		"updated_at" : "2025-02-28T16:29:07.299Z"
+	},
+	{
+		"_id" : 187,
+		"id" : 256,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Московские ворота",
+		"created_at" : "2025-02-28T16:29:07.332Z",
+		"updated_at" : "2025-02-28T16:29:07.332Z"
+	},
+	{
+		"_id" : 188,
+		"id" : 257,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Электросила",
+		"created_at" : "2025-02-28T16:29:07.374Z",
+		"updated_at" : "2025-02-28T16:29:07.374Z"
+	},
+	{
+		"_id" : 189,
+		"id" : 258,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Парк Победы",
+		"created_at" : "2025-02-28T16:29:07.410Z",
+		"updated_at" : "2025-02-28T16:29:07.410Z"
+	},
+	{
+		"_id" : 190,
+		"id" : 260,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Звёздная",
+		"created_at" : "2025-02-28T16:29:07.443Z",
+		"updated_at" : "2025-02-28T16:29:07.443Z"
+	},
+	{
+		"_id" : 191,
+		"id" : 261,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Купчино",
+		"created_at" : "2025-02-28T16:29:07.478Z",
+		"updated_at" : "2025-02-28T16:29:07.478Z"
+	},
+	{
+		"_id" : 192,
+		"id" : 262,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Беговая",
+		"created_at" : "2025-02-28T16:29:07.537Z",
+		"updated_at" : "2025-02-28T16:29:07.537Z"
+	},
+	{
+		"_id" : 193,
+		"id" : 264,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Приморская",
+		"created_at" : "2025-02-28T16:29:07.574Z",
+		"updated_at" : "2025-02-28T16:29:07.574Z"
+	},
+	{
+		"_id" : 194,
+		"id" : 265,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Василеостровская",
+		"created_at" : "2025-02-28T16:29:07.612Z",
+		"updated_at" : "2025-02-28T16:29:07.612Z"
+	},
+	{
+		"_id" : 195,
+		"id" : 266,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Гостиный двор",
+		"created_at" : "2025-02-28T16:29:07.655Z",
+		"updated_at" : "2025-02-28T16:29:07.655Z"
+	},
+	{
+		"_id" : 196,
+		"id" : 267,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Маяковская",
+		"created_at" : "2025-02-28T16:29:07.692Z",
+		"updated_at" : "2025-02-28T16:29:07.692Z"
+	},
+	{
+		"_id" : 197,
+		"id" : 269,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Елизаровская",
+		"created_at" : "2025-02-28T16:29:07.727Z",
+		"updated_at" : "2025-02-28T16:29:07.727Z"
+	},
+	{
+		"_id" : 198,
+		"id" : 270,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Ломоносовская",
+		"created_at" : "2025-02-28T16:29:07.771Z",
+		"updated_at" : "2025-02-28T16:29:07.771Z"
+	},
+	{
+		"_id" : 199,
+		"id" : 271,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Пролетарская",
+		"created_at" : "2025-02-28T16:29:07.809Z",
+		"updated_at" : "2025-02-28T16:29:07.809Z"
+	},
+	{
+		"_id" : 200,
+		"id" : 273,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Рыбацкое",
+		"created_at" : "2025-02-28T16:29:07.842Z",
+		"updated_at" : "2025-02-28T16:29:07.842Z"
+	},
+	{
+		"_id" : 201,
+		"id" : 276,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Лиговский проспект",
+		"created_at" : "2025-02-28T16:29:07.883Z",
+		"updated_at" : "2025-02-28T16:29:07.883Z"
+	},
+	{
+		"_id" : 202,
+		"id" : 278,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Новочеркасская",
+		"created_at" : "2025-02-28T16:29:07.915Z",
+		"updated_at" : "2025-02-28T16:29:07.915Z"
+	},
+	{
+		"_id" : 203,
+		"id" : 279,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Ладожская",
+		"created_at" : "2025-02-28T16:29:08.177Z",
+		"updated_at" : "2025-02-28T16:29:08.177Z"
+	},
+	{
+		"_id" : 204,
+		"id" : 281,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Улица Дыбенко",
+		"created_at" : "2025-02-28T16:29:08.211Z",
+		"updated_at" : "2025-02-28T16:29:08.211Z"
+	},
+	{
+		"_id" : 205,
+		"id" : 282,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Комендантский проспект",
+		"created_at" : "2025-02-28T16:29:08.256Z",
+		"updated_at" : "2025-02-28T16:29:08.256Z"
+	},
+	{
+		"_id" : 206,
+		"id" : 285,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Чкаловская",
+		"created_at" : "2025-02-28T16:29:08.291Z",
+		"updated_at" : "2025-02-28T16:29:08.291Z"
+	},
+	{
+		"_id" : 207,
+		"id" : 286,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Спортивная",
+		"created_at" : "2025-02-28T16:29:08.332Z",
+		"updated_at" : "2025-02-28T16:29:08.332Z"
+	},
+	{
+		"_id" : 208,
+		"id" : 287,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Адмиралтейская",
+		"created_at" : "2025-02-28T16:29:08.368Z",
+		"updated_at" : "2025-02-28T16:29:08.368Z"
+	},
+	{
+		"_id" : 209,
+		"id" : 288,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Садовая",
+		"created_at" : "2025-02-28T16:29:08.405Z",
+		"updated_at" : "2025-02-28T16:29:08.405Z"
+	},
+	{
+		"_id" : 210,
+		"id" : 289,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Звенигородская",
+		"created_at" : "2025-02-28T16:29:08.446Z",
+		"updated_at" : "2025-02-28T16:29:08.446Z"
+	},
+	{
+		"_id" : 211,
+		"id" : 290,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Обводный канал",
+		"created_at" : "2025-02-28T16:29:08.479Z",
+		"updated_at" : "2025-02-28T16:29:08.479Z"
+	},
+	{
+		"_id" : 212,
+		"id" : 291,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Волковская",
+		"created_at" : "2025-02-28T16:29:08.519Z",
+		"updated_at" : "2025-02-28T16:29:08.519Z"
+	},
+	{
+		"_id" : 213,
+		"id" : 292,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Бухарестская",
+		"created_at" : "2025-02-28T16:29:08.555Z",
+		"updated_at" : "2025-02-28T16:29:08.555Z"
+	},
+	{
+		"_id" : 214,
+		"id" : 293,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Международная",
+		"created_at" : "2025-02-28T16:29:08.592Z",
+		"updated_at" : "2025-02-28T16:29:08.592Z"
+	},
+	{
+		"_id" : 215,
+		"id" : 295,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Дунайская",
+		"created_at" : "2025-02-28T16:29:08.631Z",
+		"updated_at" : "2025-02-28T16:29:08.631Z"
+	},
+	{
+		"_id" : 216,
+		"id" : 296,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Шушары",
+		"created_at" : "2025-02-28T16:29:08.671Z",
+		"updated_at" : "2025-02-28T16:29:08.671Z"
+	},
+	{
+		"_id" : 217,
+		"id" : 311,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Филевский парк",
+		"created_at" : "2025-02-28T16:29:08.713Z",
+		"updated_at" : "2025-02-28T16:29:08.713Z"
+	},
+	{
+		"_id" : 218,
+		"id" : 313,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Теплый Стан",
+		"created_at" : "2025-02-28T16:29:08.746Z",
+		"updated_at" : "2025-02-28T16:29:08.746Z"
+	},
+	{
+		"_id" : 219,
+		"id" : 323,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Балтийская",
+		"created_at" : "2025-02-28T16:29:08.871Z",
+		"updated_at" : "2025-02-28T16:29:08.871Z"
+	},
+	{
+		"_id" : 220,
+		"id" : 334,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Ростокино",
+		"created_at" : "2025-02-28T16:29:08.916Z",
+		"updated_at" : "2025-02-28T16:29:08.916Z"
+	},
+	{
+		"_id" : 221,
+		"id" : 346,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Народное Ополчение",
+		"created_at" : "2025-02-28T16:29:08.951Z",
+		"updated_at" : "2025-02-28T16:29:08.951Z"
+	},
+	{
+		"_id" : 222,
+		"id" : 348,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Петровский парк",
+		"created_at" : "2025-02-28T16:29:08.987Z",
+		"updated_at" : "2025-02-28T16:29:08.987Z"
+	},
+	{
+		"_id" : 223,
+		"id" : 364,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Гостиный двор",
+		"created_at" : "2025-02-28T16:29:09.022Z",
+		"updated_at" : "2025-02-28T16:29:09.022Z"
+	},
+	{
+		"_id" : 224,
+		"id" : 375,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Лесная",
+		"created_at" : "2025-02-28T16:29:09.054Z",
+		"updated_at" : "2025-02-28T16:29:09.054Z"
+	},
+	{
+		"_id" : 225,
+		"id" : 390,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Площадь Александра Невского 1",
+		"created_at" : "2025-02-28T16:29:09.092Z",
+		"updated_at" : "2025-02-28T16:29:09.092Z"
+	},
+	{
+		"_id" : 226,
+		"id" : 392,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Площадь Восстания",
+		"created_at" : "2025-02-28T16:29:09.125Z",
+		"updated_at" : "2025-02-28T16:29:09.125Z"
+	},
+	{
+		"_id" : 227,
+		"id" : 418,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Улица Сергея Эйзенштейна",
+		"created_at" : "2025-02-28T16:29:09.156Z",
+		"updated_at" : "2025-02-28T16:29:09.156Z"
+	},
+	{
+		"_id" : 228,
+		"id" : 489,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Юго-Восточная",
+		"created_at" : "2025-02-28T16:29:09.190Z",
+		"updated_at" : "2025-02-28T16:29:09.190Z"
+	},
+	{
+		"_id" : 229,
+		"id" : 503,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Горьковская",
+		"created_at" : "2025-02-28T16:29:09.256Z",
+		"updated_at" : "2025-02-28T16:29:09.256Z"
+	},
+	{
+		"_id" : 230,
+		"id" : 505,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Заречная",
+		"created_at" : "2025-02-28T16:29:09.306Z",
+		"updated_at" : "2025-02-28T16:29:09.306Z"
+	},
+	{
+		"_id" : 231,
+		"id" : 506,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Кировская",
+		"created_at" : "2025-02-28T16:29:09.367Z",
+		"updated_at" : "2025-02-28T16:29:09.367Z"
+	},
+	{
+		"_id" : 232,
+		"id" : 508,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Ленинская",
+		"created_at" : "2025-02-28T16:29:09.415Z",
+		"updated_at" : "2025-02-28T16:29:09.415Z"
+	},
+	{
+		"_id" : 233,
+		"id" : 511,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Пролетарская",
+		"created_at" : "2025-02-28T16:29:09.457Z",
+		"updated_at" : "2025-02-28T16:29:09.458Z"
+	},
+	{
+		"_id" : 234,
+		"id" : 513,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Буревестник",
+		"created_at" : "2025-02-28T16:29:09.503Z",
+		"updated_at" : "2025-02-28T16:29:09.503Z"
+	},
+	{
+		"_id" : 235,
+		"id" : 514,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Бурнаковская",
+		"created_at" : "2025-02-28T16:29:09.548Z",
+		"updated_at" : "2025-02-28T16:29:09.548Z"
+	},
+	{
+		"_id" : 236,
+		"id" : 518,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Алабинская",
+		"created_at" : "2025-02-28T16:29:09.589Z",
+		"updated_at" : "2025-02-28T16:29:09.589Z"
+	},
+	{
+		"_id" : 237,
+		"id" : 519,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Безымянка",
+		"created_at" : "2025-02-28T16:29:09.629Z",
+		"updated_at" : "2025-02-28T16:29:09.629Z"
+	},
+	{
+		"_id" : 238,
+		"id" : 520,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Гагаринская",
+		"created_at" : "2025-02-28T16:29:09.671Z",
+		"updated_at" : "2025-02-28T16:29:09.671Z"
+	},
+	{
+		"_id" : 239,
+		"id" : 522,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Московская",
+		"created_at" : "2025-02-28T16:29:09.707Z",
+		"updated_at" : "2025-02-28T16:29:09.707Z"
+	},
+	{
+		"_id" : 240,
+		"id" : 524,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Российская",
+		"created_at" : "2025-02-28T16:29:09.755Z",
+		"updated_at" : "2025-02-28T16:29:09.755Z"
+	},
+	{
+		"_id" : 241,
+		"id" : 525,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Советская",
+		"created_at" : "2025-02-28T16:29:09.972Z",
+		"updated_at" : "2025-02-28T16:29:09.972Z"
+	},
+	{
+		"_id" : 242,
+		"id" : 528,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Авиастроительная",
+		"created_at" : "2025-02-28T16:29:10.009Z",
+		"updated_at" : "2025-02-28T16:29:10.009Z"
+	},
+	{
+		"_id" : 243,
+		"id" : 529,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Аметьево",
+		"created_at" : "2025-02-28T16:29:10.045Z",
+		"updated_at" : "2025-02-28T16:29:10.045Z"
+	},
+	{
+		"_id" : 244,
+		"id" : 530,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Горки",
+		"created_at" : "2025-02-28T16:29:10.076Z",
+		"updated_at" : "2025-02-28T16:29:10.076Z"
+	},
+	{
+		"_id" : 245,
+		"id" : 532,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Козья слобода",
+		"created_at" : "2025-02-28T16:29:10.111Z",
+		"updated_at" : "2025-02-28T16:29:10.111Z"
+	},
+	{
+		"_id" : 246,
+		"id" : 533,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Кремлевская",
+		"created_at" : "2025-02-28T16:29:10.155Z",
+		"updated_at" : "2025-02-28T16:29:10.155Z"
+	},
+	{
+		"_id" : 247,
+		"id" : 534,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Площадь Тукая",
+		"created_at" : "2025-02-28T16:29:10.187Z",
+		"updated_at" : "2025-02-28T16:29:10.187Z"
+	},
+	{
+		"_id" : 248,
+		"id" : 535,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Проспект Победы",
+		"created_at" : "2025-02-28T16:29:10.224Z",
+		"updated_at" : "2025-02-28T16:29:10.224Z"
+	},
+	{
+		"_id" : 249,
+		"id" : 537,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Суконная слобода",
+		"created_at" : "2025-02-28T16:29:10.265Z",
+		"updated_at" : "2025-02-28T16:29:10.265Z"
+	},
+	{
+		"_id" : 250,
+		"id" : 538,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Яшьлек (Юность)",
+		"created_at" : "2025-02-28T16:29:10.296Z",
+		"updated_at" : "2025-02-28T16:29:10.296Z"
+	},
+	{
+		"_id" : 251,
+		"id" : 539,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Ботаническая",
+		"created_at" : "2025-02-28T16:29:10.330Z",
+		"updated_at" : "2025-02-28T16:29:10.330Z"
+	},
+	{
+		"_id" : 252,
+		"id" : 540,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Геологическая",
+		"created_at" : "2025-02-28T16:29:10.369Z",
+		"updated_at" : "2025-02-28T16:29:10.369Z"
+	},
+	{
+		"_id" : 253,
+		"id" : 542,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Машиностроителей",
+		"created_at" : "2025-02-28T16:29:10.406Z",
+		"updated_at" : "2025-02-28T16:29:10.406Z"
+	},
+	{
+		"_id" : 254,
+		"id" : 543,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Площадь 1905 года",
+		"created_at" : "2025-02-28T16:29:10.440Z",
+		"updated_at" : "2025-02-28T16:29:10.440Z"
+	},
+	{
+		"_id" : 255,
+		"id" : 544,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Проспект Космонавтов",
+		"created_at" : "2025-02-28T16:29:10.473Z",
+		"updated_at" : "2025-02-28T16:29:10.473Z"
+	},
+	{
+		"_id" : 256,
+		"id" : 545,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Уралмаш",
+		"created_at" : "2025-02-28T16:29:10.508Z",
+		"updated_at" : "2025-02-28T16:29:10.508Z"
+	},
+	{
+		"_id" : 257,
+		"id" : 546,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Уральская",
+		"created_at" : "2025-02-28T16:29:10.544Z",
+		"updated_at" : "2025-02-28T16:29:10.544Z"
+	},
+	{
+		"_id" : 258,
+		"id" : 548,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Березовая роща",
+		"created_at" : "2025-02-28T16:29:10.588Z",
+		"updated_at" : "2025-02-28T16:29:10.588Z"
+	},
+	{
+		"_id" : 259,
+		"id" : 549,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Золотая нива",
+		"created_at" : "2025-02-28T16:29:10.801Z",
+		"updated_at" : "2025-02-28T16:29:10.801Z"
+	},
+	{
+		"_id" : 260,
+		"id" : 551,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Площадь Гарина-Михайловского",
+		"created_at" : "2025-02-28T16:29:10.844Z",
+		"updated_at" : "2025-02-28T16:29:10.844Z"
+	},
+	{
+		"_id" : 261,
+		"id" : 552,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Сибирская",
+		"created_at" : "2025-02-28T16:29:10.875Z",
+		"updated_at" : "2025-02-28T16:29:10.875Z"
+	},
+	{
+		"_id" : 262,
+		"id" : 554,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Заельцовская",
+		"created_at" : "2025-02-28T16:29:10.909Z",
+		"updated_at" : "2025-02-28T16:29:10.909Z"
+	},
+	{
+		"_id" : 263,
+		"id" : 555,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Красный проспект",
+		"created_at" : "2025-02-28T16:29:10.943Z",
+		"updated_at" : "2025-02-28T16:29:10.943Z"
+	},
+	{
+		"_id" : 264,
+		"id" : 557,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Площадь Карла Маркса",
+		"created_at" : "2025-02-28T16:29:10.990Z",
+		"updated_at" : "2025-02-28T16:29:10.990Z"
+	},
+	{
+		"_id" : 265,
+		"id" : 4,
+		"type" : "metros",
+		"source" : "edunetwork",
+		"name" : "Сокольники",
+		"created_at" : "2025-04-01T12:40:00.093Z",
+		"updated_at" : "2025-04-01T12:40:00.093Z"
+	}
+]}

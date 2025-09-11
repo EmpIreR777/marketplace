@@ -1,0 +1,378 @@
+[
+  {
+    "model": "questions.question",
+    "pk": 1,
+    "fields": {
+      "title": "1. Личные интересы и увлечения",
+      "text": "Какие занятия или темы вам всегда были интересны?"
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 2,
+    "fields": {
+      "title": "2. Мотивация и стиль работы",
+      "text": "Вам больше нравится работать с:"
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 3,
+    "fields": {
+      "title": "3. Личностные качества и навыки",
+      "text": "Какие ваши сильные стороны?"
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 4,
+    "fields": {
+      "title": "4. Желаемый образ жизни",
+      "text": "Какой тип работы вам больше подходит?"
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 5,
+    "fields": {
+      "title": "5. Образовательный и карьерный опыт",
+      "text": "Какие темы или задачи вам больше нравились в учебе или работе?"
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 6,
+    "fields": {
+      "title": "6. Цели и амбиции",
+      "text": "Что для вас важнее в будущем?"
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 7,
+    "fields": {
+      "title": "7. Открытость к экспериментам",
+      "text": "Готовы ли вы попробовать что-то новое?"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 1,
+    "fields": {
+      "question": 1,
+      "text": "Работа с технологиями (IT, программирование, инженерия)",
+      "answer_category": "IT",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 2,
+    "fields": {
+      "question": 1,
+      "text": "Творчество (дизайн, искусство, музыка)",
+      "answer_category": "CREATIVITY",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 3,
+    "fields": {
+      "question": 1,
+      "text": "Работа с людьми (психология, педагогика, медицина)",
+      "answer_category": "SOCIAL_SCIENCE",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 4,
+    "fields": {
+      "question": 1,
+      "text": "Бизнес и управление (экономика, менеджмент, предпринимательство)",
+      "answer_category": "ECONOMICS",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 5,
+    "fields": {
+      "question": 1,
+      "text": "Исследования и аналитика (наука, данные, история)",
+      "answer_category": "ANALYTICS",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 6,
+    "fields": {
+      "question": 2,
+      "text": "Людьми (помощь, общение, наставничество)",
+      "answer_category": "SOCIAL_SCIENCE",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 7,
+    "fields": {
+      "question": 2,
+      "text": "Текстами и информацией (анализ, структурирование)",
+      "answer_category": "ANALYTICS",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 8,
+    "fields": {
+      "question": 2,
+      "text": "Технологиями и устройствами (работа с ПО или оборудованием)",
+      "answer_category": "IT",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 9,
+    "fields": {
+      "question": 2,
+      "text": "Творческими проектами (создание чего-то нового)",
+      "answer_category": "CREATIVITY",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 10,
+    "fields": {
+      "question": 3,
+      "text": "Логическое и аналитическое мышление",
+      "answer_category": "ANALYTICS",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 11,
+    "fields": {
+      "question": 3,
+      "text": "Креативность и нестандартный подход",
+      "answer_category": "CREATIVITY",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 12,
+    "fields": {
+      "question": 3,
+      "text": "Лидерские качества и организаторские способности",
+      "answer_category": "ECONOMICS",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 13,
+    "fields": {
+      "question": 3,
+      "text": "Способность помогать и понимать других",
+      "answer_category": "SOCIAL_SCIENCE",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 14,
+    "fields": {
+      "question": 3,
+      "text": "Любовь к новым технологиям",
+      "answer_category": "IT",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 15,
+    "fields": {
+      "question": 4,
+      "text": "Работа в офисе или в команде",
+      "answer_category": "ECONOMICS",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 16,
+    "fields": {
+      "question": 4,
+      "text": "Гибкий график с возможностью удаленной работы",
+      "answer_category": "IT",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 17,
+    "fields": {
+      "question": 4,
+      "text": "Творческая среда с неформальной атмосферой",
+      "answer_category": "CREATIVITY",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 18,
+    "fields": {
+      "question": 4,
+      "text": "Научная или техническая работа, требующая сосредоточенности",
+      "answer_category": "ANALYTICS",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 19,
+    "fields": {
+      "question": 4,
+      "text": "Работа с людьми и их развитием",
+      "answer_category": "SOCIAL_SCIENCE",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 20,
+    "fields": {
+      "question": 5,
+      "text": "Решение математических или технических задач",
+      "answer_category": "IT",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 21,
+    "fields": {
+      "question": 5,
+      "text": "Участие в творческих конкурсах или проектах",
+      "answer_category": "CREATIVITY",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 22,
+    "fields": {
+      "question": 5,
+      "text": "Организация мероприятий или управление процессами",
+      "answer_category": "ECONOMICS",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 23,
+    "fields": {
+      "question": 5,
+      "text": "Изучение поведения и потребностей людей",
+      "answer_category": "SOCIAL_SCIENCE",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 24,
+    "fields": {
+      "question": 5,
+      "text": "Анализ данных и исследовательские проекты",
+      "answer_category": "ANALYTICS",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 25,
+    "fields": {
+      "question": 6,
+      "text": "Высокий доход и карьерный рост",
+      "answer_category": "ECONOMICS",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 26,
+    "fields": {
+      "question": 6,
+      "text": "Возможность самореализации через творчество",
+      "answer_category": "CREATIVITY",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 27,
+    "fields": {
+      "question": 6,
+      "text": "Стабильность и долгосрочные перспективы",
+      "answer_category": "IT",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 28,
+    "fields": {
+      "question": 6,
+      "text": "Помощь другим людям и обществу",
+      "answer_category": "SOCIAL_SCIENCE",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 29,
+    "fields": {
+      "question": 6,
+      "text": "Постоянное обучение и рост",
+      "answer_category": "ANALYTICS",
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 30,
+    "fields": {
+      "question": 7,
+      "text": "Да, хочу попробовать себя в новой сфере",
+      "answer_category": null,
+      "openness_priority": "high"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 31,
+    "fields": {
+      "question": 7,
+      "text": "Скорее да, но мне важно больше информации",
+      "answer_category": null,
+      "openness_priority": "medium"
+    }
+  },
+  {
+    "model": "questions.answer",
+    "pk": 32,
+    "fields": {
+      "question": 7,
+      "text": "Нет, предпочитаю углубляться в знакомых темах",
+      "answer_category": null,
+      "openness_priority": "low"
+    }
+  }
+]

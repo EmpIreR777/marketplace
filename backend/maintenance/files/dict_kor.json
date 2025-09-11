@@ -1,0 +1,3039 @@
+{
+    "data": {
+        "courseFormats": {
+            "alias": "courseFormats",
+            "name": "Формат курса",
+            "fields": [
+                {
+                    "name": "Запись лекций или вебинаров",
+                    "value": "record"
+                },
+                {
+                    "name": "Онлайн-занятия с преподавателем",
+                    "value": "online"
+                },
+                {
+                    "name": "Офлайн-занятия",
+                    "value": "offline"
+                }
+            ]
+        },
+        "courseGraphics": {
+            "alias": "courseGraphics",
+            "name": "График курса",
+            "fields": [
+                {
+                    "name": "Есть расписание",
+                    "value": "schedule"
+                },
+                {
+                    "name": "Свободный график",
+                    "value": "free",
+                    "meta": ""
+                }
+            ]
+        },
+        "courseLevels": {
+            "alias": "courseLevels",
+            "name": "Уровень курса",
+            "fields": [
+                {
+                    "name": "Для начинающих",
+                    "value": "beginner"
+                },
+                {
+                    "name": "Для продвинутых",
+                    "value": "advanced"
+                }
+            ]
+        },
+        "courseTargets": {
+            "alias": "courseTargets",
+            "name": "Цели курса",
+            "fields": [
+                {
+                    "name": "Освоить профессию с нуля",
+                    "value": "learnProfession",
+                    "meta": ""
+                },
+                {
+                    "name": "Развить навыки",
+                    "value": "upgradeSkills",
+                    "meta": ""
+                },
+                {
+                    "name": "Повышение квалификации",
+                    "value": "professionalDevelopment",
+                    "meta": ""
+                },
+                {
+                    "name": "Профессиональная переподготовка",
+                    "value": "professionalRetraining",
+                    "meta": ""
+                },
+                {
+                    "name": "Найти хобби или узнать новое",
+                    "value": "findHobbyOfLearnNew",
+                    "meta": ""
+                }
+            ]
+        },
+        "coursesThematics": {
+            "alias": "coursesThematics",
+            "name": "Тематики курсов",
+            "fields": [
+                {
+                    "name": "1С-аналитика",
+                    "value": "1C_analytics"
+                },
+                {
+                    "name": "1С-разработка",
+                    "value": "languageOneS"
+                },
+                {
+                    "name": "1С:Бухгалтерия",
+                    "value": "1c"
+                },
+                {
+                    "name": "3D-анимация",
+                    "value": "3dAnim"
+                },
+                {
+                    "name": "3D-моделирование",
+                    "value": "2dModel"
+                },
+                {
+                    "name": "3ds Max",
+                    "value": "3dsmax"
+                },
+                {
+                    "name": "3D-дженералист",
+                    "value": "3D_generalist_courses"
+                },
+                {
+                    "name": "Ableton",
+                    "value": "ableton"
+                },
+                {
+                    "name": "Adobe Animate",
+                    "value": "animate"
+                },
+                {
+                    "name": "Adobe Illustrator",
+                    "value": "illustrator"
+                },
+                {
+                    "name": "Adobe Premiere Pro",
+                    "value": "premiere"
+                },
+                {
+                    "name": "Adobe XD",
+                    "value": "adobexd"
+                },
+                {
+                    "name": "After Effects",
+                    "value": "aftereffects"
+                },
+                {
+                    "name": "Agile",
+                    "value": "agile"
+                },
+                {
+                    "name": "Android",
+                    "value": "android"
+                },
+                {
+                    "name": "Angular",
+                    "value": "angular"
+                },
+                {
+                    "name": "Archicad",
+                    "value": "archicad"
+                },
+                {
+                    "name": "Arduino",
+                    "value": "languageArduino"
+                },
+                {
+                    "name": "ASP.NET Core",
+                    "value": "aspnet"
+                },
+                {
+                    "name": "AutoCAD",
+                    "value": "autocad"
+                },
+                {
+                    "name": "Autodesk Maya",
+                    "value": "maya"
+                },
+                {
+                    "name": "Azure",
+                    "value": "azure"
+                },
+                {
+                    "name": "Backbone",
+                    "value": "backbone"
+                },
+                {
+                    "name": "Backend-разработка",
+                    "value": "back"
+                },
+                {
+                    "name": "BI-аналитика",
+                    "value": "analyticsBi"
+                },
+                {
+                    "name": "Big Data",
+                    "value": "analyticsBd"
+                },
+                {
+                    "name": "BIM-менеджмент",
+                    "value": "BIM_management"
+                },
+                {
+                    "name": "Bitrix",
+                    "value": "bitrix"
+                },
+                {
+                    "name": "Blender",
+                    "value": "blender"
+                },
+                {
+                    "name": "Bootstrap",
+                    "value": "bootstrap"
+                },
+                {
+                    "name": "C#",
+                    "value": "languageCSharp"
+                },
+                {
+                    "name": "C/C++",
+                    "value": "languageCPlusPlus"
+                },
+                {
+                    "name": "CI / CD",
+                    "value": "cicd"
+                },
+                {
+                    "name": "Cinema 4D",
+                    "value": "cinema4d"
+                },
+                {
+                    "name": "CMS.S3",
+                    "value": "s3"
+                },
+                {
+                    "name": "CodeIgniter",
+                    "value": "codeigniter"
+                },
+                {
+                    "name": "CorelDraw",
+                    "value": "coreldraw"
+                },
+                {
+                    "name": "CRM-маркетинг",
+                    "value": "crm"
+                },
+                {
+                    "name": "Dart",
+                    "value": "languageDart"
+                },
+                {
+                    "name": "Data Engineering",
+                    "value": "analyticsDe"
+                },
+                {
+                    "name": "Data Science",
+                    "value": "analyticsDs"
+                },
+                {
+                    "name": "Data Studio",
+                    "value": "datastudio"
+                },
+                {
+                    "name": "Аналитика данных",
+                    "value": "analyticsData"
+                },
+                {
+                    "name": "DaVinci",
+                    "value": "davinci"
+                },
+                {
+                    "name": "DevOps",
+                    "value": "devops"
+                },
+                {
+                    "name": "Digital-маркетинг",
+                    "value": "marketingDigital"
+                },
+                {
+                    "name": "Digital-стратегия",
+                    "value": "digital_strategy"
+                },
+                {
+                    "name": "Django",
+                    "value": "django"
+                },
+                {
+                    "name": "Docker",
+                    "value": "docker"
+                },
+                {
+                    "name": "Drupal",
+                    "value": "drupal"
+                },
+                {
+                    "name": "E-commerce бизнес",
+                    "value": "ecom"
+                },
+                {
+                    "name": "Email-маркетинг",
+                    "value": "email"
+                },
+                {
+                    "name": "ERP-системы",
+                    "value": "erp"
+                },
+                {
+                    "name": "Event-менеджмент",
+                    "value": "marketingEvent"
+                },
+                {
+                    "name": "Excel",
+                    "value": "excel"
+                },
+                {
+                    "name": "Excel для экономистов",
+                    "value": "excelForEconomists"
+                },
+                {
+                    "name": "Figma",
+                    "value": "figma"
+                },
+                {
+                    "name": "Flask",
+                    "value": "flask"
+                },
+                {
+                    "name": "Flutter",
+                    "value": "flutter"
+                },
+                {
+                    "name": "Frontend-разработка",
+                    "value": "front"
+                },
+                {
+                    "name": "Fullstack-разработка",
+                    "value": "full"
+                },
+                {
+                    "name": "Fusion 360",
+                    "value": "fusion360"
+                },
+                {
+                    "name": "Git",
+                    "value": "git"
+                },
+                {
+                    "name": "Go (Golang)",
+                    "value": "languageGo"
+                },
+                {
+                    "name": "Groovy",
+                    "value": "languageGroovy"
+                },
+                {
+                    "name": "Hadoop",
+                    "value": "hadoop"
+                },
+                {
+                    "name": "Haskell",
+                    "value": "languageHaskell"
+                },
+                {
+                    "name": "Houdini",
+                    "value": "houdini"
+                },
+                {
+                    "name": "HR-аналитика",
+                    "value": "analyst"
+                },
+                {
+                    "name": "HR и Управление персоналом",
+                    "value": "managementHR"
+                },
+                {
+                    "name": "HRBP (HR бизнес-партнёр)",
+                    "value": "HR_business_partner"
+                },
+                {
+                    "name": "HTML/CSS верстка",
+                    "value": "languageHTML"
+                },
+                {
+                    "name": "InDesign",
+                    "value": "indesign"
+                },
+                {
+                    "name": "iOS",
+                    "value": "ios"
+                },
+                {
+                    "name": "IT-рекрутинг",
+                    "value": "recruiter"
+                },
+                {
+                    "name": "Java",
+                    "value": "languageJava"
+                },
+                {
+                    "name": "JavaScript",
+                    "value": "languageJavaScript"
+                },
+                {
+                    "name": "Joomla",
+                    "value": "joomla"
+                },
+                {
+                    "name": "Julia",
+                    "value": "languageJulia"
+                },
+                {
+                    "name": "Kanban",
+                    "value": "kanban"
+                },
+                {
+                    "name": "Kotlin",
+                    "value": "languageKotlin"
+                },
+                {
+                    "name": "Kubernetes",
+                    "value": "kuber"
+                },
+                {
+                    "name": "Laravel",
+                    "value": "laravel"
+                },
+                {
+                    "name": "LibGDX",
+                    "value": "libgdx"
+                },
+                {
+                    "name": "Lua",
+                    "value": "languageLua"
+                },
+                {
+                    "name": "Microsoft Office",
+                    "value": "microsoft_office"
+                },
+                {
+                    "name": "Mini-MBA",
+                    "value": "mini_MBA"
+                },
+                {
+                    "name": "MODX",
+                    "value": "modx"
+                },
+                {
+                    "name": "Motion-дизайн",
+                    "value": "motion"
+                },
+                {
+                    "name": "Node.js",
+                    "value": "node"
+                },
+                {
+                    "name": "Nuxt.js",
+                    "value": "nuxt_js"
+                },
+                {
+                    "name": "Objective-C",
+                    "value": "languageObjectiveC"
+                },
+                {
+                    "name": "OpenCart",
+                    "value": "opencart"
+                },
+                {
+                    "name": "Pascal/Delphi",
+                    "value": "languagePascal"
+                },
+                {
+                    "name": "Perl",
+                    "value": "languagePerl"
+                },
+                {
+                    "name": "Photoshop",
+                    "value": "photoshop"
+                },
+                {
+                    "name": "PHP",
+                    "value": "languagePHP"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "value": "postgresql"
+                },
+                {
+                    "name": "Power BI",
+                    "value": "powerbi"
+                },
+                {
+                    "name": "Powerpoint",
+                    "value": "powerpoint"
+                },
+                {
+                    "name": "Processing",
+                    "value": "languageProcessing"
+                },
+                {
+                    "name": "Procreate",
+                    "value": "procreate"
+                },
+                {
+                    "name": "Product-менеджмент",
+                    "value": "managementProduct"
+                },
+                {
+                    "name": "Project-менеджмент",
+                    "value": "project"
+                },
+                {
+                    "name": "PR-менеджмент",
+                    "value": "marketingPR"
+                },
+                {
+                    "name": "Python",
+                    "value": "languagePython"
+                },
+                {
+                    "name": "QA/Тестирование",
+                    "value": "programmingTest"
+                },
+                {
+                    "name": "React",
+                    "value": "react"
+                },
+                {
+                    "name": "Realtime Landscaping Architect",
+                    "value": "realtime_landscaping_architect"
+                },
+                {
+                    "name": "Revit",
+                    "value": "reviit"
+                },
+                {
+                    "name": "Ruby",
+                    "value": "languageRuby"
+                },
+                {
+                    "name": "Ruby on Rails",
+                    "value": "ruby"
+                },
+                {
+                    "name": "Rust",
+                    "value": "languageRust"
+                },
+                {
+                    "name": "Scala",
+                    "value": "languageScala"
+                },
+                {
+                    "name": "Scratch",
+                    "value": "languageScratch"
+                },
+                {
+                    "name": "Scrum",
+                    "value": "scrum"
+                },
+                {
+                    "name": "SEO-продвижение",
+                    "value": "seo"
+                },
+                {
+                    "name": "SERM",
+                    "value": "serm"
+                },
+                {
+                    "name": "SketchUp",
+                    "value": "sketchup"
+                },
+                {
+                    "name": "SMM-продвижение",
+                    "value": "smm"
+                },
+                {
+                    "name": "SolidWorks",
+                    "value": "solidworks"
+                },
+                {
+                    "name": "Spring",
+                    "value": "spring"
+                },
+                {
+                    "name": "SQL",
+                    "value": "sql"
+                },
+                {
+                    "name": "Substance Painter",
+                    "value": "substance_painter"
+                },
+                {
+                    "name": "Swift",
+                    "value": "languageSwift"
+                },
+                {
+                    "name": "Symfony",
+                    "value": "symfony"
+                },
+                {
+                    "name": "Tableau",
+                    "value": "tableau"
+                },
+                {
+                    "name": "Tilda",
+                    "value": "tilda"
+                },
+                {
+                    "name": "TypeScript",
+                    "value": "languageTypeScript"
+                },
+                {
+                    "name": "Unity",
+                    "value": "unity"
+                },
+                {
+                    "name": "Unreal engine",
+                    "value": "unrealengine"
+                },
+                {
+                    "name": "UX/UI-дизайн",
+                    "value": "designUX"
+                },
+                {
+                    "name": "VFX",
+                    "value": "VFX_courses"
+                },
+                {
+                    "name": "VR/AR",
+                    "value": "vrar"
+                },
+                {
+                    "name": "Vue.js",
+                    "value": "vue"
+                },
+                {
+                    "name": "Wix",
+                    "value": "wix"
+                },
+                {
+                    "name": "WordPress",
+                    "value": "wordpress"
+                },
+                {
+                    "name": "Yii Framework",
+                    "value": "yii"
+                },
+                {
+                    "name": "ZBrush",
+                    "value": "zbrush"
+                },
+                {
+                    "name": "Автоматизация тестирования",
+                    "value": "automat"
+                },
+                {
+                    "name": "Администрирование Linux",
+                    "value": "linux"
+                },
+                {
+                    "name": "Администрирование Windows",
+                    "value": "windows"
+                },
+                {
+                    "name": "Администрирование серверов",
+                    "value": "adminServer"
+                },
+                {
+                    "name": "Актерское мастерство",
+                    "value": "creativityActor"
+                },
+                {
+                    "name": "Алгоритмы и структуры данных",
+                    "value": "algorithms_and_data_structures"
+                },
+                {
+                    "name": "Английский для IT",
+                    "value": "forIT"
+                },
+                {
+                    "name": "Английский для гостиничного бизнеса",
+                    "value": "forHotel"
+                },
+                {
+                    "name": "Английский для путешествий",
+                    "value": "forTravel"
+                },
+                {
+                    "name": "Английский для собеседования",
+                    "value": "forInterview"
+                },
+                {
+                    "name": "Английский для студентов",
+                    "value": "forStudent"
+                },
+                {
+                    "name": "C1",
+                    "value": "advanced"
+                },
+                {
+                    "name": "A1",
+                    "value": "beginner"
+                },
+                {
+                    "name": "A2",
+                    "value": "elementary"
+                },
+                {
+                    "name": "B1",
+                    "value": "intermediate"
+                },
+                {
+                    "name": "B2",
+                    "value": "upintermediate"
+                },
+                {
+                    "name": "Английский с носителем языка",
+                    "value": "native"
+                },
+                {
+                    "name": "Английский язык",
+                    "value": "languageEnglish"
+                },
+                {
+                    "name": "Антицеллюлитный массаж",
+                    "value": "antiCelluliteMassage"
+                },
+                {
+                    "name": "Аппаратная косметология",
+                    "value": "hardwareCosmetology"
+                },
+                {
+                    "name": "Арабский язык",
+                    "value": "languageArabiс"
+                },
+                {
+                    "name": "Ароматерапия",
+                    "value": "aromatherapy"
+                },
+                {
+                    "name": "Арт-терапия",
+                    "value": "art_therapy"
+                },
+                {
+                    "name": "Асинхронное программирование",
+                    "value": "asynchronous_programming"
+                },
+                {
+                    "name": "Астрология",
+                    "value": "astrology"
+                },
+                {
+                    "name": "Базы данных",
+                    "value": "programmingBD"
+                },
+                {
+                    "name": "Барберинг",
+                    "value": "barberi"
+                },
+                {
+                    "name": "Бизнес-аналитика",
+                    "value": "analyticsBusiness"
+                },
+                {
+                    "name": "Бизнес-стратегия",
+                    "value": "business_strategy"
+                },
+                {
+                    "name": "Битмейкинг",
+                    "value": "beatmaking"
+                },
+                {
+                    "name": "Блогинг",
+                    "value": "creativityBlog"
+                },
+                {
+                    "name": "Блокчейн",
+                    "value": "blockchain"
+                },
+                {
+                    "name": "Бренд-дизайн",
+                    "value": "brand_design"
+                },
+                {
+                    "name": "Брендинг",
+                    "value": "marketingBrand"
+                },
+                {
+                    "name": "Бухгалтерия",
+                    "value": "financeAccounting"
+                },
+                {
+                    "name": "Бьюти-бизнес",
+                    "value": "beauty"
+                },
+                {
+                    "name": "Веб-аналитика",
+                    "value": "analyticsWeb"
+                },
+                {
+                    "name": "Веб-дизайн",
+                    "value": "designWeb"
+                },
+                {
+                    "name": "Веб-разработка",
+                    "value": "programmingWeb"
+                },
+                {
+                    "name": "Векторная графика",
+                    "value": "vector"
+                },
+                {
+                    "name": "Визаж",
+                    "value": "makeup"
+                },
+                {
+                    "name": "Вокал",
+                    "value": "vocal"
+                },
+                {
+                    "name": "Воспитание детей",
+                    "value": "child_rearing"
+                },
+                {
+                    "name": "Выгорание",
+                    "value": "burnout"
+                },
+                {
+                    "name": "Вьетнамский язык",
+                    "value": "languageVietnamese"
+                },
+                {
+                    "name": "Вязание и плетение",
+                    "value": "applicationKnitting"
+                },
+                {
+                    "name": "Геймдизайн",
+                    "value": "gameDesign"
+                },
+                {
+                    "name": "Гештальт-терапия",
+                    "value": "gestalt_therapy"
+                },
+                {
+                    "name": "Глубокое обучение",
+                    "value": "analyticsDl"
+                },
+                {
+                    "name": "Гостиничный бизнес",
+                    "value": "hotel"
+                },
+                {
+                    "name": "Графический дизайн",
+                    "value": "designGraphic"
+                },
+                {
+                    "name": "Google Таблицы",
+                    "value": "google_sheets"
+                },
+                {
+                    "name": "Деловой английский",
+                    "value": "forBusiness"
+                },
+                {
+                    "name": "Деловые коммуникации",
+                    "value": "softskillsCommunication"
+                },
+                {
+                    "name": "Детская психология",
+                    "value": "childPsychology"
+                },
+                {
+                    "name": "Детский массаж",
+                    "value": "babyMassage"
+                },
+                {
+                    "name": "Диетология",
+                    "value": "beautyDiet"
+                },
+                {
+                    "name": "Дизайн интерьера",
+                    "value": "designDecor"
+                },
+                {
+                    "name": "Дизайн логотипов",
+                    "value": "logo_design"
+                },
+                {
+                    "name": "Дизайн мебели",
+                    "value": "furniture_design"
+                },
+                {
+                    "name": "Дизайн мобильных приложений",
+                    "value": "mobile_design"
+                },
+                {
+                    "name": "Дизайн нижнего белья и купальников",
+                    "value": "underwear_and_swimwear_design"
+                },
+                {
+                    "name": "Дизайн одежды",
+                    "value": "designClothes"
+                },
+                {
+                    "name": "Дизайн украшений",
+                    "value": "designJewelry"
+                },
+                {
+                    "name": "Дизайн упаковки",
+                    "value": "packaging_design"
+                },
+                {
+                    "name": "Дроны",
+                    "value": "drones"
+                },
+                {
+                    "name": "Живопись",
+                    "value": "painting_courses"
+                },
+                {
+                    "name": "Закупки и тендеры",
+                    "value": "tender"
+                },
+                {
+                    "name": "Запуск стартапов",
+                    "value": "startup"
+                },
+                {
+                    "name": "Защита интеллектуальной собственности",
+                    "value": "intellectual_property_protection"
+                },
+                {
+                    "name": "Звукорежиссура",
+                    "value": "soundprod"
+                },
+                {
+                    "name": "Иврит",
+                    "value": "languageHebrew"
+                },
+                {
+                    "name": "Игра на гитаре",
+                    "value": "guitar_courses"
+                },
+                {
+                    "name": "Игра на музыкальных инструментах и вокал",
+                    "value": "creativityPlay"
+                },
+                {
+                    "name": "Иллюстрация",
+                    "value": "Illustration"
+                },
+                {
+                    "name": "Иллюстрация персонажей",
+                    "value": "character_illustration"
+                },
+                {
+                    "name": "Инвестирование",
+                    "value": "invest"
+                },
+                {
+                    "name": "Инвестиционная аналитика",
+                    "value": "investment_analytics"
+                },
+                {
+                    "name": "Интернет-маркетинг",
+                    "value": "marketingInternet"
+                },
+                {
+                    "name": "Информационная безопасность",
+                    "value": "adminIb"
+                },
+                {
+                    "name": "Инфраструктура",
+                    "value": "programmingInfra"
+                },
+                {
+                    "name": "Искусственный интеллект",
+                    "value": "analyticsAi"
+                },
+                {
+                    "name": "Искусство",
+                    "value": "art_courses"
+                },
+                {
+                    "name": "Испанский язык",
+                    "value": "languageSpanish"
+                },
+                {
+                    "name": "Итальянский язык",
+                    "value": "languageItalian"
+                },
+                {
+                    "name": "Йога",
+                    "value": "sportYoga"
+                },
+                {
+                    "name": "Кадровое делопроизводство",
+                    "value": "personnel_records_management"
+                },
+                {
+                    "name": "Каллиграфия",
+                    "value": "calligraphy_courses"
+                },
+                {
+                    "name": "Киберспорт",
+                    "value": "sportCyber"
+                },
+                {
+                    "name": "Кино",
+                    "value": "cinema_courses"
+                },
+                {
+                    "name": "Китайский язык",
+                    "value": "languageChinese"
+                },
+                {
+                    "name": "Клиническая психология",
+                    "value": "clinicalPsychology"
+                },
+                {
+                    "name": "Клипмейкинг",
+                    "value": "clipmaking"
+                },
+                {
+                    "name": "Коммерческая иллюстрация",
+                    "value": "commercial_illustration"
+                },
+                {
+                    "name": "Компьютерная грамотность",
+                    "value": "computer_literacy"
+                },
+                {
+                    "name": "Комьюнити-менеджмент",
+                    "value": "marketingCommunity"
+                },
+                {
+                    "name": "Конструирование одежды",
+                    "value": "clothing_construction"
+                },
+                {
+                    "name": "Контекстная реклама",
+                    "value": "ppc"
+                },
+                {
+                    "name": "Контент-маркетинг",
+                    "value": "contentMarketing"
+                },
+                {
+                    "name": "Контурная пластика губ",
+                    "value": "lipContouring"
+                },
+                {
+                    "name": "Копирайтинг",
+                    "value": "copywrite"
+                },
+                {
+                    "name": "Корейский язык",
+                    "value": "languageKorean"
+                },
+                {
+                    "name": "Корпоративные финансы",
+                    "value": "corporate_finance"
+                },
+                {
+                    "name": "Коррекция бровей",
+                    "value": "beautyCorrection"
+                },
+                {
+                    "name": "Косметология",
+                    "value": "beautyCosmetic"
+                },
+                {
+                    "name": "Коучинг",
+                    "value": "softskillsCoach"
+                },
+                {
+                    "name": "Креативная реклама",
+                    "value": "creative_advertising"
+                },
+                {
+                    "name": "Креативность",
+                    "value": "creativity"
+                },
+                {
+                    "name": "Контент-менеджмент",
+                    "value": "contentManagement"
+                },
+                {
+                    "name": "Критическое мышление",
+                    "value": "critical_thinking"
+                },
+                {
+                    "name": "Кройка и шитье",
+                    "value": "applicationSewing"
+                },
+                {
+                    "name": "Курирование онлайн-курсов",
+                    "value": "online_course_curator"
+                },
+                {
+                    "name": "Курсы 2D-художников",
+                    "value": "2D_artist_courses"
+                },
+                {
+                    "name": "Курсы DJ",
+                    "value": "DJ_courses"
+                },
+                {
+                    "name": "MBA",
+                    "value": "managementMBA"
+                },
+                {
+                    "name": "Курсы Teamlead",
+                    "value": "teamlead_courses"
+                },
+                {
+                    "name": "Курсы архитекторов ПО",
+                    "value": "software_architect_courses"
+                },
+                {
+                    "name": "Курсы коммерческих редакторов",
+                    "value": "commercial_editors_courses"
+                },
+                {
+                    "name": "Ламинирование волос",
+                    "value": "laminationHair"
+                },
+                {
+                    "name": "Ламинирование ресниц",
+                    "value": "laminationEyelashes"
+                },
+                {
+                    "name": "Ландшафтный дизайн",
+                    "value": "designLand"
+                },
+                {
+                    "name": "Лидерство",
+                    "value": "leadership"
+                },
+                {
+                    "name": "Лимфодренажный массаж",
+                    "value": "lymphaticDrainageMassage"
+                },
+                {
+                    "name": "Литература",
+                    "value": "literature_courses"
+                },
+                {
+                    "name": "Личностный рост",
+                    "value": "softskillsIndividual"
+                },
+                {
+                    "name": "Макияж",
+                    "value": "beautyMakeUp"
+                },
+                {
+                    "name": "Маникюр",
+                    "value": "beautyManic"
+                },
+                {
+                    "name": "Маркетинг в ресторанном бизнесе",
+                    "value": "restaurant_business_marketing"
+                },
+                {
+                    "name": "Маркетинг для fashion-брендов",
+                    "value": "fashion_brand_marketing"
+                },
+                {
+                    "name": "Маркетинг для предпринимателей",
+                    "value": "entrepreneur_marketing"
+                },
+                {
+                    "name": "Маркетинговая аналитика",
+                    "value": "analyticsMarketing"
+                },
+                {
+                    "name": "Массаж",
+                    "value": "beautyMassage"
+                },
+                {
+                    "name": "Массаж лица",
+                    "value": "facialMassage"
+                },
+                {
+                    "name": "Мастеринг и сведение",
+                    "value": "mastering_and_mixing"
+                },
+                {
+                    "name": "Математика для Data Science",
+                    "value": "mathematics_for_data_science"
+                },
+                {
+                    "name": "Машинное обучение",
+                    "value": "analyticsMl"
+                },
+                {
+                    "name": "Межличностное общение",
+                    "value": "interpersonal_communication"
+                },
+                {
+                    "name": "Мезотерапия",
+                    "value": "mesotherapy"
+                },
+                {
+                    "name": "Менеджмент/маркетинг в сфере спорта",
+                    "value": "sportManagement"
+                },
+                {
+                    "name": "Мессенджер-маркетинг",
+                    "value": "marketingMessage"
+                },
+                {
+                    "name": "Микросервисная архитектура",
+                    "value": "microservice_architecture"
+                },
+                {
+                    "name": "Мобильная разработка",
+                    "value": "programmingMobile"
+                },
+                {
+                    "name": "Монтаж",
+                    "value": "montage"
+                },
+                {
+                    "name": "Музыка",
+                    "value": "music_courses"
+                },
+                {
+                    "name": "Музыкальное продюсирование",
+                    "value": "music_producer"
+                },
+                {
+                    "name": "Мультипликация",
+                    "value": "cartoon"
+                },
+                {
+                    "name": "Налогообложение",
+                    "value": "taxes"
+                },
+                {
+                    "name": "Наращивание волос",
+                    "value": "hairExtensions"
+                },
+                {
+                    "name": "Наращивание ногтей",
+                    "value": "nailExtensions"
+                },
+                {
+                    "name": "Наращивание ресниц",
+                    "value": "eyelashExtensions"
+                },
+                {
+                    "name": "Нейронные сети",
+                    "value": "analyticsNn"
+                },
+                {
+                    "name": "Нейропсихология",
+                    "value": "neuropsychology"
+                },
+                {
+                    "name": "Немецкий язык",
+                    "value": "languageGerman"
+                },
+                {
+                    "name": "НЛП",
+                    "value": "NLP"
+                },
+                {
+                    "name": "Нутрициология",
+                    "value": "nutritionology"
+                },
+                {
+                    "name": "Обработка фото",
+                    "value": "retouch"
+                },
+                {
+                    "name": "Обучение бизнесу",
+                    "value": "businessTraining"
+                },
+                {
+                    "name": "Обучение и развитие персонала",
+                    "value": "staff_training_and_development"
+                },
+                {
+                    "name": "Обучение продажам",
+                    "value": "salesTraining"
+                },
+                {
+                    "name": "Обучение руководителей",
+                    "value": "executiveTraining"
+                },
+                {
+                    "name": "Операторская съёмка",
+                    "value": "operator"
+                },
+                {
+                    "name": "Операционный менеджмент",
+                    "value": "operational_management"
+                },
+                {
+                    "name": "Охрана труда",
+                    "value": "labor_protection"
+                },
+                {
+                    "name": "Парикмахерское искусство",
+                    "value": "beautyBarber"
+                },
+                {
+                    "name": "Педикюр",
+                    "value": "pedicure"
+                },
+                {
+                    "name": "Первая помощь",
+                    "value": "first_aid"
+                },
+                {
+                    "name": "Перманентный макияж",
+                    "value": "permanentMakeup"
+                },
+                {
+                    "name": "Пиксель-арт",
+                    "value": "pixel_art"
+                },
+                {
+                    "name": "Пирсинг",
+                    "value": "piercing"
+                },
+                {
+                    "name": "Писательское мастерство",
+                    "value": "writer"
+                },
+                {
+                    "name": "Колористика",
+                    "value": "beautyHair"
+                },
+                {
+                    "name": "Плетение кос",
+                    "value": "braidingBraids"
+                },
+                {
+                    "name": "BEC",
+                    "value": "bec"
+                },
+                {
+                    "name": "CAE",
+                    "value": "cae"
+                },
+                {
+                    "name": "CPE",
+                    "value": "cpe"
+                },
+                {
+                    "name": "FCE",
+                    "value": "fce"
+                },
+                {
+                    "name": "ICFE",
+                    "value": "icfe"
+                },
+                {
+                    "name": "IELTS",
+                    "value": "ielts"
+                },
+                {
+                    "name": "ILEC",
+                    "value": "ilec"
+                },
+                {
+                    "name": "KET",
+                    "value": "ket"
+                },
+                {
+                    "name": "PET",
+                    "value": "pet"
+                },
+                {
+                    "name": "PTE",
+                    "value": "pte"
+                },
+                {
+                    "name": "TOEFL",
+                    "value": "toefl"
+                },
+                {
+                    "name": "Подкасты",
+                    "value": "podcasts"
+                },
+                {
+                    "name": "Покер",
+                    "value": "sportPoker"
+                },
+                {
+                    "name": "Польский язык",
+                    "value": "languagePolish"
+                },
+                {
+                    "name": "Портретные фото",
+                    "value": "portrait"
+                },
+                {
+                    "name": "Португальский язык",
+                    "value": "languagePortu"
+                },
+                {
+                    "name": "Предметные фото",
+                    "value": "thing"
+                },
+                {
+                    "name": "Программа 1С",
+                    "value": "1C_courses"
+                },
+                {
+                    "name": "Продвижение в TikTok",
+                    "value": "tiktok"
+                },
+                {
+                    "name": "Продвижение в YouTube",
+                    "value": "youtube"
+                },
+                {
+                    "name": "Продвижение в Вконтакте",
+                    "value": "vk"
+                },
+                {
+                    "name": "Продвижение мобильных приложений",
+                    "value": "mobile_marketing"
+                },
+                {
+                    "name": "Продвижение на маркетплейсах",
+                    "value": "marketplace"
+                },
+                {
+                    "name": "Продукт-маркетинг",
+                    "value": "product_marketing_courses"
+                },
+                {
+                    "name": "Продуктовая аналитика",
+                    "value": "analyticsProduct"
+                },
+                {
+                    "name": "Продуктовый дизайн",
+                    "value": "designProduct"
+                },
+                {
+                    "name": "Продюсирование",
+                    "value": "produce"
+                },
+                {
+                    "name": "Продюсирование Youtube-канала",
+                    "value": "youtube_producer"
+                },
+                {
+                    "name": "Продюсирование игр",
+                    "value": "game_production"
+                },
+                {
+                    "name": "Продюсирование онлайн-курсов",
+                    "value": "online_course_producer"
+                },
+                {
+                    "name": "Производственный бизнес",
+                    "value": "manufact"
+                },
+                {
+                    "name": "Промышленный дизайн",
+                    "value": "designIndustrial"
+                },
+                {
+                    "name": "Профайлинг",
+                    "value": "profiling"
+                },
+                {
+                    "name": "Психология",
+                    "value": "softskillsPsyhology"
+                },
+                {
+                    "name": "Психология подростков",
+                    "value": "adolescent_psychology"
+                },
+                {
+                    "name": "Публичные выступления",
+                    "value": "softskillsPublic"
+                },
+                {
+                    "name": "Работа со звуком",
+                    "value": "creativitySound"
+                },
+                {
+                    "name": "Развитие бизнеса",
+                    "value": "business_development_manager"
+                },
+                {
+                    "name": "Развитие карьеры",
+                    "value": "career_development"
+                },
+                {
+                    "name": "Разработка без кода",
+                    "value": "nocode"
+                },
+                {
+                    "name": "Разработка игр",
+                    "value": "programmingGameDev"
+                },
+                {
+                    "name": "Редактура текстов",
+                    "value": "editor"
+                },
+                {
+                    "name": "Режиссура",
+                    "value": "creativityDirector"
+                },
+                {
+                    "name": "Реклама у блогеров",
+                    "value": "marketingBlog"
+                },
+                {
+                    "name": "Рекламная графика",
+                    "value": "advertising_graphics"
+                },
+                {
+                    "name": "Рендер",
+                    "value": "rendering_courses"
+                },
+                {
+                    "name": "Репортажные фото",
+                    "value": "reportage"
+                },
+                {
+                    "name": "Ресторанный бизнес",
+                    "value": "rest"
+                },
+                {
+                    "name": "Рисование",
+                    "value": "creativityDraw"
+                },
+                {
+                    "name": "Рисование на графическом планшете",
+                    "value": "tablet"
+                },
+                {
+                    "name": "Робототехника",
+                    "value": "robotics"
+                },
+                {
+                    "name": "Русский как иностранный",
+                    "value": "languageRussian"
+                },
+                {
+                    "name": "Ручное тестирование",
+                    "value": "manual"
+                },
+                {
+                    "name": "Самооценка",
+                    "value": "self_assessment"
+                },
+                {
+                    "name": "Саунд-дизайн",
+                    "value": "sound_design"
+                },
+                {
+                    "name": "Свадебные фото",
+                    "value": "wedding"
+                },
+                {
+                    "name": "Свадебный стилист",
+                    "value": "weddingStylist"
+                },
+                {
+                    "name": "Секретариат",
+                    "value": "secretary_courses"
+                },
+                {
+                    "name": "Сексология",
+                    "value": "sexology"
+                },
+                {
+                    "name": "Семейная психология",
+                    "value": "family_psychology"
+                },
+                {
+                    "name": "Системная аналитика",
+                    "value": "analyticsSystem"
+                },
+                {
+                    "name": "Скетчинг",
+                    "value": "sketch"
+                },
+                {
+                    "name": "Скорочтение",
+                    "value": "speed_reading"
+                },
+                {
+                    "name": "Создание 3D-персонажей",
+                    "value": "3D_character_creation"
+                },
+                {
+                    "name": "Создание личного бренда",
+                    "value": "personal_brand_creation"
+                },
+                {
+                    "name": "Создание стиля",
+                    "value": "beautyStyle"
+                },
+                {
+                    "name": "Создание сценариев",
+                    "value": "scriptwriter"
+                },
+                {
+                    "name": "Сонграйтинг",
+                    "value": "songwriting"
+                },
+                {
+                    "name": "Сопровождение руководителя",
+                    "value": "support"
+                },
+                {
+                    "name": "Спортивный массаж",
+                    "value": "sportsMassage"
+                },
+                {
+                    "name": "Статистика",
+                    "value": "statistics"
+                },
+                {
+                    "name": "Стилист",
+                    "value": "stylist_courses"
+                },
+                {
+                    "name": "Стилист fashion-съёмок",
+                    "value": "fashion_shoot_stylist_courses"
+                },
+                {
+                    "name": "Стилист по волосам",
+                    "value": "hair_stylist_courses"
+                },
+                {
+                    "name": "Сторителлинг",
+                    "value": "softskillStory"
+                },
+                {
+                    "name": "Стресс-менеджмент",
+                    "value": "stress_management"
+                },
+                {
+                    "name": "Тайм-менеджмент",
+                    "value": "time_management"
+                },
+                {
+                    "name": "Танцы",
+                    "value": "creativityDance"
+                },
+                {
+                    "name": "Таргетинг",
+                    "value": "targeting"
+                },
+                {
+                    "name": "Тату",
+                    "value": "tattoo"
+                },
+                {
+                    "name": "Татуаж",
+                    "value": "beautyTatto"
+                },
+                {
+                    "name": "Текстильный декор",
+                    "value": "textile_decor"
+                },
+                {
+                    "name": "Тестирование игр",
+                    "value": "gameTest"
+                },
+                {
+                    "name": "Типографика",
+                    "value": "typography"
+                },
+                {
+                    "name": "Трафик-менеджмент",
+                    "value": "traffic_manager_courses"
+                },
+                {
+                    "name": "Трейдинг",
+                    "value": "trading"
+                },
+                {
+                    "name": "Тренд-аналитикa в Fashion",
+                    "value": "fashion_trend_analytics"
+                },
+                {
+                    "name": "Тренерство",
+                    "value": "sportCoach"
+                },
+                {
+                    "name": "Турецкий язык",
+                    "value": "languageTurkish"
+                },
+                {
+                    "name": "Управление HR",
+                    "value": "director"
+                },
+                {
+                    "name": "Управление бизнесом",
+                    "value": "managementBuisness"
+                },
+                {
+                    "name": "Управление бухгалтерией",
+                    "value": "chiefAccount"
+                },
+                {
+                    "name": "Управление в дизайне",
+                    "value": "managementDesign"
+                },
+                {
+                    "name": "Управление в разработке и IT",
+                    "value": "managementIt"
+                },
+                {
+                    "name": "Управление клиентским сервисом",
+                    "value": "customer_service_management"
+                },
+                {
+                    "name": "Управление командами",
+                    "value": "team_management"
+                },
+                {
+                    "name": "Управление продажами",
+                    "value": "managementSales"
+                },
+                {
+                    "name": "Управление рисками",
+                    "value": "risk_management"
+                },
+                {
+                    "name": "Философия",
+                    "value": "philosophy"
+                },
+                {
+                    "name": "Финансовая грамотность",
+                    "value": "softskillsFinLit"
+                },
+                {
+                    "name": "Финансовое моделирование",
+                    "value": "model"
+                },
+                {
+                    "name": "Финансовая аналитика",
+                    "value": "analysis"
+                },
+                {
+                    "name": "Финансовый менеджмент",
+                    "value": "managementFinance"
+                },
+                {
+                    "name": "Фитнес-тренеры",
+                    "value": "sportFitness"
+                },
+                {
+                    "name": "Флористика",
+                    "value": "applicationFlower"
+                },
+                {
+                    "name": "Фотография",
+                    "value": "creativityPhoto"
+                },
+                {
+                    "name": "Французский язык",
+                    "value": "languageFrench"
+                },
+                {
+                    "name": "Фриланс",
+                    "value": "freelance_courses"
+                },
+                {
+                    "name": "Фуд-фото",
+                    "value": "food"
+                },
+                {
+                    "name": "Фэшн-фото",
+                    "value": "fation"
+                },
+                {
+                    "name": "Хинди",
+                    "value": "languageHindi"
+                },
+                {
+                    "name": "Цифровая трансформация бизнеса",
+                    "value": "digital_business"
+                },
+                {
+                    "name": "Цифровое рисование",
+                    "value": "digital_painting"
+                },
+                {
+                    "name": "Чешский язык",
+                    "value": "languageCzech"
+                },
+                {
+                    "name": "Шахматы",
+                    "value": "sportChess"
+                },
+                {
+                    "name": "Экология и урбанистика",
+                    "value": "ecology_and_urban_planning"
+                },
+                {
+                    "name": "Экономика",
+                    "value": "economist_courses"
+                },
+                {
+                    "name": "Экстерьерная визуализация",
+                    "value": "exterior_visualization"
+                },
+                {
+                    "name": "Электроника",
+                    "value": "programmingRobots"
+                },
+                {
+                    "name": "Электронная музыка",
+                    "value": "electro"
+                },
+                {
+                    "name": "Эмоции",
+                    "value": "emotions"
+                },
+                {
+                    "name": "Эмоциональный интеллект",
+                    "value": "emotional_intelligence"
+                },
+                {
+                    "name": "Эпиляция",
+                    "value": "epilation"
+                },
+                {
+                    "name": "Эстетическая косметология",
+                    "value": "aestheticCosmetology"
+                },
+                {
+                    "name": "Этичный хакинг",
+                    "value": "ethical_hacking"
+                },
+                {
+                    "name": "Юридические аспекты бизнеса",
+                    "value": "legal"
+                },
+                {
+                    "name": "Язык R",
+                    "value": "languageR"
+                },
+                {
+                    "name": "Юридический английский",
+                    "value": "forLegal"
+                },
+                {
+                    "name": "Японский язык",
+                    "value": "languageJapanese"
+                },
+                {
+                    "name": "Методист",
+                    "value": "methodist"
+                },
+                {
+                    "name": "Педагогика",
+                    "value": "padagogica"
+                },
+                {
+                    "name": "Медицина",
+                    "value": "medicine"
+                },
+                {
+                    "name": "Логопедия",
+                    "value": "speechTherapy"
+                },
+                {
+                    "name": "История",
+                    "value": "history"
+                },
+                {
+                    "name": "Делопроизводство и документооборот",
+                    "value": "documentManagement"
+                },
+                {
+                    "name": "Лендинги",
+                    "value": "landingPages"
+                },
+                {
+                    "name": "Ansible",
+                    "value": "ansible"
+                },
+                {
+                    "name": "AWS",
+                    "value": "aws"
+                },
+                {
+                    "name": "Bash",
+                    "value": "bash"
+                },
+                {
+                    "name": "Google Cloud",
+                    "value": "googleCloud"
+                },
+                {
+                    "name": "Jira",
+                    "value": "jira"
+                },
+                {
+                    "name": "NoSQL",
+                    "value": "nosql"
+                },
+                {
+                    "name": "Apache Kafka",
+                    "value": "apacheKafka"
+                },
+                {
+                    "name": "Веб-сервисы",
+                    "value": "webServices"
+                },
+                {
+                    "name": "MySQL",
+                    "value": "mysql"
+                },
+                {
+                    "name": "Roblox",
+                    "value": "roblox"
+                },
+                {
+                    "name": "Minecraft",
+                    "value": "minecraft"
+                },
+                {
+                    "name": "Айдентика",
+                    "value": "identity"
+                },
+                {
+                    "name": "Final Cut Pro",
+                    "value": "finalCutPro"
+                },
+                {
+                    "name": "AutoCAD Civil 3D",
+                    "value": "autocadCivil3d"
+                },
+                {
+                    "name": "Декорирование интерьера",
+                    "value": "interiorDecoration"
+                },
+                {
+                    "name": "Архитектура",
+                    "value": "architecture"
+                },
+                {
+                    "name": "Стриминг",
+                    "value": "streaming"
+                },
+                {
+                    "name": "Анализ рынка",
+                    "value": "marketAnalysis"
+                },
+                {
+                    "name": "CJM",
+                    "value": "cjm"
+                },
+                {
+                    "name": "CustDev",
+                    "value": "custdev"
+                },
+                {
+                    "name": "Маркетинговая стратегия",
+                    "value": "marketingStrategy"
+                },
+                {
+                    "name": "Ценообразование",
+                    "value": "pricing"
+                },
+                {
+                    "name": "Google Реклама",
+                    "value": "googleAdvertising"
+                },
+                {
+                    "name": "Дзен",
+                    "value": "dzen"
+                },
+                {
+                    "name": "SMM-стратегия",
+                    "value": "smmStrategy"
+                },
+                {
+                    "name": "Telegram",
+                    "value": "telegram"
+                },
+                {
+                    "name": "Wildberries",
+                    "value": "wildberries"
+                },
+                {
+                    "name": "Aliexpress",
+                    "value": "aliexpress"
+                },
+                {
+                    "name": "Ozon",
+                    "value": "ozon"
+                },
+                {
+                    "name": "Яндекс.Маркет",
+                    "value": "yandex.market"
+                },
+                {
+                    "name": "SEO-копирайтинг",
+                    "value": "seoCopywriting"
+                },
+                {
+                    "name": "Аналитика для руководителей",
+                    "value": "analyticsForManagers"
+                },
+                {
+                    "name": "Компьютерное зрение",
+                    "value": "computerVision"
+                },
+                {
+                    "name": "Яндекс.Метрика",
+                    "value": "yandex.metrica"
+                },
+                {
+                    "name": "Google Analytics",
+                    "value": "googleAnalytics"
+                },
+                {
+                    "name": "Арт-менеджмент",
+                    "value": "artManagement"
+                },
+                {
+                    "name": "Управление в строительстве",
+                    "value": "managementInConstruction"
+                },
+                {
+                    "name": "Управление PMBOK",
+                    "value": "pmbokManagement"
+                },
+                {
+                    "name": "Оценка персонала и аттестация",
+                    "value": "personnelAssessmentAndCertification"
+                },
+                {
+                    "name": "Корпоративная культура",
+                    "value": "corporateCulture"
+                },
+                {
+                    "name": "Карьерное консультирование и коучинг",
+                    "value": "careerCounselingAndCoaching"
+                },
+                {
+                    "name": "B2B-продажи",
+                    "value": "b2bSales"
+                },
+                {
+                    "name": "Юриспруденция",
+                    "value": "jurisprudence"
+                },
+                {
+                    "name": "Офис-менеджеры (АХО)",
+                    "value": "officeManagers"
+                },
+                {
+                    "name": "Рекламные фото",
+                    "value": "promotionalPhotos"
+                },
+                {
+                    "name": "Мобильная фотография",
+                    "value": "mobilePhotography"
+                },
+                {
+                    "name": "Мобильный продакшн",
+                    "value": "mobileProduction"
+                },
+                {
+                    "name": "Журналистика",
+                    "value": "journalism"
+                },
+                {
+                    "name": "Сценическое искусство (театральное)",
+                    "value": "performingArts"
+                },
+                {
+                    "name": "Эзотерика",
+                    "value": "esotericism"
+                },
+                {
+                    "name": "Таро",
+                    "value": "tarot"
+                },
+                {
+                    "name": "Нумерология",
+                    "value": "numerology"
+                },
+                {
+                    "name": "Рисование аниме",
+                    "value": "drawingAnime"
+                },
+                {
+                    "name": "Бизнес-психология",
+                    "value": "businessPsychology"
+                },
+                {
+                    "name": "Культура",
+                    "value": "culture"
+                },
+                {
+                    "name": "Наука",
+                    "value": "theScience"
+                },
+                {
+                    "name": "Религия",
+                    "value": "religion"
+                },
+                {
+                    "name": "Политика",
+                    "value": "politics"
+                },
+                {
+                    "name": "Теория вероятностей",
+                    "value": "probabilityTheory"
+                },
+                {
+                    "name": "Математическая логика",
+                    "value": "mathematicalLogic"
+                },
+                {
+                    "name": "Ментальное здоровье",
+                    "value": "mentalHealth"
+                },
+                {
+                    "name": "Медиация",
+                    "value": "mediation"
+                },
+                {
+                    "name": "Финансовые рынки",
+                    "value": "financialMarkets"
+                },
+                {
+                    "name": "Управленческий учет",
+                    "value": "managementAccounting"
+                },
+                {
+                    "name": "Финансовое планирование",
+                    "value": "financialPlanning"
+                },
+                {
+                    "name": "Финансовый директор",
+                    "value": "financialDirector"
+                },
+                {
+                    "name": "Коммерческий директор",
+                    "value": "commercialDirector"
+                },
+                {
+                    "name": "Юнит-экономика",
+                    "value": "unitEconomics"
+                },
+                {
+                    "name": "Финансовый учет",
+                    "value": "financialAccounting"
+                },
+                {
+                    "name": "Аудит",
+                    "value": "audit"
+                },
+                {
+                    "name": "Налоговое планирование",
+                    "value": "taxPlanning"
+                },
+                {
+                    "name": "Майнд-фитнес",
+                    "value": "mindFitness"
+                },
+                {
+                    "name": "Занятия фитнесом/бодибилдингом",
+                    "value": "fitnessBodybuilding"
+                },
+                {
+                    "name": "Занятия детским фитнесом",
+                    "value": "childrensFitness"
+                },
+                {
+                    "name": "Растяжка",
+                    "value": "stretching"
+                },
+                {
+                    "name": "Администратор гостиницы",
+                    "value": "theHotelAdministrator"
+                },
+                {
+                    "name": "Безопасность дорожного движения (БДД)",
+                    "value": "roadSafety"
+                },
+                {
+                    "name": "Бизнес-тренер",
+                    "value": "businessCoach"
+                },
+                {
+                    "name": "Государственное и муниципальное управление (ГМУ)",
+                    "value": "stateAndMunicipalAdministration"
+                },
+                {
+                    "name": "Логистика",
+                    "value": "logistics"
+                },
+                {
+                    "name": "Логопсихотерапевт",
+                    "value": "speechTherapist"
+                },
+                {
+                    "name": "Менеджер в здравоохранении",
+                    "value": "healthCareManager"
+                },
+                {
+                    "name": "Менеджмент в торговле",
+                    "value": "managementInTrade"
+                },
+                {
+                    "name": "Пожарная безопасность",
+                    "value": "fireSafety"
+                },
+                {
+                    "name": "Промышленная безопасность",
+                    "value": "industrialSafety"
+                },
+                {
+                    "name": "Когнитивно-поведенческая терапия (КПТ)",
+                    "value": "theCbtTherapist"
+                },
+                {
+                    "name": "Управление недвижимостью",
+                    "value": "propertyManagement"
+                },
+                {
+                    "name": "Воспитатели",
+                    "value": "caregivers"
+                },
+                {
+                    "name": "Дефектология",
+                    "value": "defectology"
+                },
+                {
+                    "name": "Педагог ДПО (дополнительного образования)",
+                    "value": "dpoTeacher"
+                },
+                {
+                    "name": "Педагог ДОУ (дошкольных учреждений/образования)",
+                    "value": "teacherOfTheDow"
+                },
+                {
+                    "name": "Педагог-психолог",
+                    "value": "educationalPsychologist"
+                },
+                {
+                    "name": "Педагог-хореограф",
+                    "value": "teacher-choreographer"
+                },
+                {
+                    "name": "Педагог ИЗО",
+                    "value": "anIsoTeacher"
+                },
+                {
+                    "name": "Учитель языков",
+                    "value": "languageTeacher"
+                },
+                {
+                    "name": "Учитель истории",
+                    "value": "historyTeacher"
+                },
+                {
+                    "name": "Учитель русского языка и литературы",
+                    "value": "teacherRussianAndLiterature"
+                },
+                {
+                    "name": "Учитель математики",
+                    "value": "mathTeacher"
+                },
+                {
+                    "name": "Учитель начальных классов",
+                    "value": "primarySchoolTeacher"
+                },
+                {
+                    "name": "Учитель физкультуры",
+                    "value": "physicalEducationTeacher"
+                },
+                {
+                    "name": "Учитель химии",
+                    "value": "chemistryTeacher"
+                },
+                {
+                    "name": "Кризисный психолог",
+                    "value": "crisisPsychologist"
+                },
+                {
+                    "name": "Перинатальный психолог",
+                    "value": "perinatalPsychologist"
+                },
+                {
+                    "name": "Психолог ДОУ",
+                    "value": "doePsychologist"
+                },
+                {
+                    "name": "Психотерапевт",
+                    "value": "psychotherapist"
+                },
+                {
+                    "name": "Кондитерское дело",
+                    "value": "confectioneryBusiness"
+                },
+                {
+                    "name": "Сметное дело",
+                    "value": "estimateBusiness"
+                },
+                {
+                    "name": "Администрирование",
+                    "value": "administration",
+                    "meta": ""
+                },
+                {
+                    "name": "Менеджмент в образовании",
+                    "value": "managementEducation",
+                    "meta": ""
+                },
+                {
+                    "name": "Презентации",
+                    "value": "presentations",
+                    "meta": ""
+                },
+                {
+                    "name": "Fashion-индустрия",
+                    "value": "fashionIndustry",
+                    "meta": ""
+                },
+                {
+                    "name": "Яндекс Директ",
+                    "value": "yandexDirect",
+                    "meta": ""
+                },
+                {
+                    "name": "Рукоделие",
+                    "value": "handiwork",
+                    "meta": ""
+                },
+                {
+                    "name": "React Native",
+                    "value": "reactNative",
+                    "meta": ""
+                },
+                {
+                    "name": "Nest.js",
+                    "value": "nestJs",
+                    "meta": ""
+                },
+                {
+                    "name": "Криптовалюты",
+                    "value": "cryptocurrencies",
+                    "meta": ""
+                },
+                {
+                    "name": "Сетевая инфраструктура",
+                    "value": "networkInfrastructure",
+                    "meta": ""
+                },
+                {
+                    "name": "Сестринское дело",
+                    "value": "nursing",
+                    "meta": ""
+                },
+                {
+                    "name": "UX-исследования",
+                    "value": "uxResearch",
+                    "meta": ""
+                },
+                {
+                    "name": "Этика",
+                    "value": "ethics",
+                    "meta": ""
+                },
+                {
+                    "name": "Винная культура",
+                    "value": "wineCulture",
+                    "meta": ""
+                },
+                {
+                    "name": "Генетика",
+                    "value": "genetics",
+                    "meta": ""
+                },
+                {
+                    "name": "Биология",
+                    "value": "biology",
+                    "meta": ""
+                },
+                {
+                    "name": "Астрономия",
+                    "value": "astronomy",
+                    "meta": ""
+                },
+                {
+                    "name": "Антиэйджинг",
+                    "value": "antiaging",
+                    "meta": ""
+                },
+                {
+                    "name": "Гипноз",
+                    "value": "hypnosis",
+                    "meta": ""
+                },
+                {
+                    "name": "Греческий язык",
+                    "value": "greekLanguage",
+                    "meta": ""
+                },
+                {
+                    "name": "Норвежский язык",
+                    "value": "norwegianLanguage",
+                    "meta": ""
+                },
+                {
+                    "name": "Персидский язык",
+                    "value": "persianLanguage",
+                    "meta": ""
+                },
+                {
+                    "name": "Финский язык",
+                    "value": "finnishLanguage",
+                    "meta": ""
+                },
+                {
+                    "name": "Дизайн-системы",
+                    "value": "designSystems",
+                    "meta": ""
+                },
+                {
+                    "name": "Инфографика",
+                    "value": "infographics",
+                    "meta": ""
+                },
+                {
+                    "name": "Разговорный английский",
+                    "value": "spokenEnglish",
+                    "meta": ""
+                },
+                {
+                    "name": "Транспорт",
+                    "value": "transport",
+                    "meta": ""
+                },
+                {
+                    "name": "Генеалогия",
+                    "value": "genealogy",
+                    "meta": ""
+                },
+                {
+                    "name": "Грамотность",
+                    "value": "literacy",
+                    "meta": ""
+                },
+                {
+                    "name": "Дизайн интерактивных медиа",
+                    "value": "interactiveMediaDesign",
+                    "meta": ""
+                },
+                {
+                    "name": "Интерьерная фотография",
+                    "value": "interiorPhotography",
+                    "meta": ""
+                },
+                {
+                    "name": "Кинезиотейпирование",
+                    "value": "kinesiotaping",
+                    "meta": ""
+                },
+                {
+                    "name": "Тейпирование",
+                    "value": "taping",
+                    "meta": ""
+                },
+                {
+                    "name": "Кассиры",
+                    "value": "cashiers",
+                    "meta": ""
+                },
+                {
+                    "name": "Медиапланирование",
+                    "value": "mediaPlanning",
+                    "meta": ""
+                },
+                {
+                    "name": "Мифология",
+                    "value": "mythology",
+                    "meta": ""
+                },
+                {
+                    "name": "Нейролингвистика",
+                    "value": "neurolinguistics",
+                    "meta": ""
+                },
+                {
+                    "name": "Сомнология",
+                    "value": "somnology",
+                    "meta": ""
+                },
+                {
+                    "name": "Экскурсовод",
+                    "value": "guide",
+                    "meta": ""
+                },
+                {
+                    "name": "App Inventor",
+                    "value": "appInventor",
+                    "meta": ""
+                },
+                {
+                    "name": "Data Driven",
+                    "value": "dataDriven",
+                    "meta": ""
+                },
+                {
+                    "name": "Конный спорт",
+                    "value": "horsebackRiding",
+                    "meta": ""
+                },
+                {
+                    "name": "DWH",
+                    "value": "dwh",
+                    "meta": ""
+                },
+                {
+                    "name": "GreenPlum",
+                    "value": "greenplum",
+                    "meta": ""
+                },
+                {
+                    "name": "Диспетчер",
+                    "value": "dispatcher",
+                    "meta": ""
+                },
+                {
+                    "name": "Игропрактика",
+                    "value": "igropractic",
+                    "meta": ""
+                },
+                {
+                    "name": "Полиграфия",
+                    "value": "polygraphy",
+                    "meta": ""
+                },
+                {
+                    "name": "Светодизайн",
+                    "value": "lightingDesign",
+                    "meta": ""
+                },
+                {
+                    "name": "Управление стоматологией",
+                    "value": "dentalManagement",
+                    "meta": ""
+                },
+                {
+                    "name": "Юридическая психология",
+                    "value": "legalPsychology",
+                    "meta": ""
+                },
+                {
+                    "name": "Медицинский английский",
+                    "value": "medicalEnglish",
+                    "meta": ""
+                },
+                {
+                    "name": "Учитель по вокалу",
+                    "value": "vocalTeacher",
+                    "meta": ""
+                },
+                {
+                    "name": "REST",
+                    "value": "restApi",
+                    "meta": ""
+                },
+                {
+                    "name": "Бизнес-ассистенты",
+                    "value": "businessAssistants",
+                    "meta": ""
+                },
+                {
+                    "name": "Ретушь",
+                    "value": "retouching",
+                    "meta": ""
+                },
+                {
+                    "name": "Нейросети для творчества",
+                    "value": "neuralNetworksForCreativity",
+                    "meta": ""
+                },
+                {
+                    "name": "Soft Skills",
+                    "value": "softSkills",
+                    "meta": ""
+                },
+                {
+                    "name": "Профориентация",
+                    "value": "careerGuidance",
+                    "meta": ""
+                },
+                {
+                    "name": "МСФО",
+                    "value": "IFRS",
+                    "meta": ""
+                },
+                {
+                    "name": "МАК (метафорические ассоциативные карты)",
+                    "value": "makMaps",
+                    "meta": ""
+                },
+                {
+                    "name": "Зоопсихология",
+                    "value": "zoopsychology",
+                    "meta": ""
+                },
+                {
+                    "name": "Трансактный анализ",
+                    "value": "transactionAnalysis",
+                    "meta": ""
+                },
+                {
+                    "name": "Психоанализ",
+                    "value": "psychoanalysis",
+                    "meta": ""
+                },
+                {
+                    "name": "Телесно-ориентированная терапия",
+                    "value": "topPsychotherapy",
+                    "meta": ""
+                },
+                {
+                    "name": "Терапия принятия и ответственности (ACT)",
+                    "value": "ACTpsychology",
+                    "meta": ""
+                },
+                {
+                    "name": "Хиромантия",
+                    "value": "palmistry",
+                    "meta": ""
+                },
+                {
+                    "name": "Экзистенциальная психология",
+                    "value": "existentialPsychology",
+                    "meta": ""
+                },
+                {
+                    "name": "Психодиагностика",
+                    "value": "psychodiagnostics",
+                    "meta": ""
+                },
+                {
+                    "name": "Психосоматика",
+                    "value": "psychosomatics",
+                    "meta": ""
+                },
+                {
+                    "name": "РПП (расстройства пищевого поведения)",
+                    "value": "RPP",
+                    "meta": ""
+                },
+                {
+                    "name": "Психология лжи",
+                    "value": "psychologyOfLying",
+                    "meta": ""
+                },
+                {
+                    "name": "Психология отношений",
+                    "value": "psychologyOfRelationships",
+                    "meta": ""
+                },
+                {
+                    "name": "Создание чат-ботов",
+                    "value": "chatbot",
+                    "meta": ""
+                },
+                {
+                    "name": "Туризм",
+                    "value": "tourism",
+                    "meta": ""
+                },
+                {
+                    "name": "Учитель музыки",
+                    "value": "teacherMusic",
+                    "meta": ""
+                },
+                {
+                    "name": "Строительство",
+                    "value": "construction",
+                    "meta": ""
+                },
+                {
+                    "name": "Neovim",
+                    "value": "neovim",
+                    "meta": ""
+                },
+                {
+                    "name": "Иппотерапия",
+                    "value": "hippotherapy",
+                    "meta": ""
+                }
+            ]
+        },
+        "directions": {
+            "alias": "directions",
+            "name": "Направления обучения",
+            "fields": [
+                {
+                    "name": "Русский язык",
+                    "value": "courseRussian",
+                    "meta": ""
+                },
+                {
+                    "name": "Математика",
+                    "value": "courseMath",
+                    "meta": ""
+                },
+                {
+                    "name": "Обществознание",
+                    "value": "courseSocialStudies",
+                    "meta": ""
+                },
+                {
+                    "name": "Биология",
+                    "value": "courseBiology",
+                    "meta": ""
+                },
+                {
+                    "name": "Физика",
+                    "value": "coursePhysics",
+                    "meta": ""
+                },
+                {
+                    "name": "История",
+                    "value": "courseHistory",
+                    "meta": ""
+                },
+                {
+                    "name": "Информатика",
+                    "value": "courseInformatics",
+                    "meta": ""
+                },
+                {
+                    "name": "Английский язык",
+                    "value": "courseEnglish",
+                    "meta": ""
+                },
+                {
+                    "name": "Химия",
+                    "value": "courseChemistry",
+                    "meta": ""
+                },
+                {
+                    "name": "Литература",
+                    "value": "courseLiterature",
+                    "meta": ""
+                },
+                {
+                    "name": "География",
+                    "value": "courseGeography",
+                    "meta": ""
+                },
+                {
+                    "name": "Немецкий язык",
+                    "value": "courseGerman",
+                    "meta": ""
+                },
+                {
+                    "name": "Французский язык",
+                    "value": "courseFrench",
+                    "meta": ""
+                },
+                {
+                    "name": "Испанский язык",
+                    "value": "courseSpanish",
+                    "meta": ""
+                },
+                {
+                    "name": "Внеучебные",
+                    "value": "courseDevelop",
+                    "meta": ""
+                },
+                {
+                    "name": "Алгебра",
+                    "value": "courseAlgebra",
+                    "meta": ""
+                },
+                {
+                    "name": "Геометрия",
+                    "value": "courseGeometry",
+                    "meta": ""
+                },
+                {
+                    "name": "Экономика",
+                    "value": "courseEconomics",
+                    "meta": ""
+                },
+                {
+                    "name": "Сочинение",
+                    "value": "courseEssay",
+                    "meta": ""
+                },
+                {
+                    "name": "Арабский язык",
+                    "value": "courseArabian",
+                    "meta": ""
+                },
+                {
+                    "name": "Итальянский язык",
+                    "value": "courseItalian",
+                    "meta": ""
+                },
+                {
+                    "name": "Китайский язык",
+                    "value": "courseChinese",
+                    "meta": ""
+                },
+                {
+                    "name": "Польский язык",
+                    "value": "coursePolish",
+                    "meta": ""
+                },
+                {
+                    "name": "Португальский язык",
+                    "value": "coursePortuguese",
+                    "meta": ""
+                },
+                {
+                    "name": "Турецкий язык",
+                    "value": "courseTurkish",
+                    "meta": ""
+                },
+                {
+                    "name": "Чешский язык",
+                    "value": "courseCzech",
+                    "meta": ""
+                },
+                {
+                    "name": "Японский язык",
+                    "value": "courseJapanese",
+                    "meta": ""
+                }
+            ]
+        },
+        "learningtype": {
+            "alias": "learningtype",
+            "name": "Категории курсов",
+            "fields": [
+                {
+                    "name": "Программирование и IT",
+                    "value": "typeProgramming",
+                    "meta": "/kursy/programmirovanie/"
+                },
+                {
+                    "name": "Аналитика и Data Science",
+                    "value": "typeAnalytics",
+                    "meta": "/kursy/analitika/"
+                },
+                {
+                    "name": "Маркетинг",
+                    "value": "typeMarketing",
+                    "meta": "/kursy/marketing/"
+                },
+                {
+                    "name": "Дизайн и контент",
+                    "value": "typeDesign",
+                    "meta": "/kursy/dizajn/"
+                },
+                {
+                    "name": "Бизнес и управление",
+                    "value": "typeManagement",
+                    "meta": "/kursy/menedzhment/"
+                },
+                {
+                    "name": "Финансы и бухгалтерия",
+                    "value": "typeFinance",
+                    "meta": "/kursy/finansy/"
+                },
+                {
+                    "name": "Языки",
+                    "value": "typeLanguage",
+                    "meta": "/kursy/inostrannye-yazyki/"
+                },
+                {
+                    "name": "Хобби и творчество",
+                    "value": "typeCreativity",
+                    "meta": "/kursy/creativity-make/"
+                },
+                {
+                    "name": "Саморазвитие и soft skills",
+                    "value": "typeSoftSkills",
+                    "meta": "/kursy/samorazvitie/"
+                },
+                {
+                    "name": "Красота и здоровье",
+                    "value": "typeBeauty",
+                    "meta": "/kursy/beauty/"
+                },
+                {
+                    "name": "Прикладные программы",
+                    "value": "typePO",
+                    "meta": "/kursy/menedzhment-microsoft-office/"
+                },
+                {
+                    "name": "Спорт",
+                    "value": "typeSport",
+                    "meta": "/kursy/sport/"
+                },
+                {
+                    "name": "Педагогика",
+                    "value": "typePedagogy",
+                    "meta": "/kursy/pedagogika/"
+                },
+                {
+                    "name": "Психология",
+                    "value": "typePsychology",
+                    "meta": "/kursy/psihologiya/"
+                }
+            ]
+        },
+        "formats": {
+            "alias": "formats",
+            "name": "Формат прохождения занятий",
+            "fields": [
+                {
+                    "name": "Очно",
+                    "value": "formatOffline",
+                    "meta": ""
+                },
+                {
+                    "name": "Онлайн",
+                    "value": "formatOnline",
+                    "meta": ""
+                }
+            ]
+        },
+        "schoolGrades": {
+            "alias": "schoolGrades",
+            "name": "Школьные классы",
+            "fields": [
+                {
+                    "name": "11-ый класс",
+                    "value": "11",
+                    "meta": ""
+                },
+                {
+                    "name": "10-ый класс",
+                    "value": "10",
+                    "meta": ""
+                },
+                {
+                    "name": "9-ый класс",
+                    "value": "9",
+                    "meta": ""
+                },
+                {
+                    "name": "8-ой класс",
+                    "value": "8",
+                    "meta": ""
+                },
+                {
+                    "name": "7-ой класс",
+                    "value": "7",
+                    "meta": ""
+                },
+                {
+                    "name": "6-ой класс",
+                    "value": "6",
+                    "meta": ""
+                },
+                {
+                    "name": "5-ый класс",
+                    "value": "5",
+                    "meta": ""
+                },
+                {
+                    "name": "4-ый класс",
+                    "value": "4",
+                    "meta": ""
+                },
+                {
+                    "name": "3-ий класс",
+                    "value": "3",
+                    "meta": ""
+                },
+                {
+                    "name": "2-ый класс",
+                    "value": "2",
+                    "meta": ""
+                },
+                {
+                    "name": "1-ый класс",
+                    "value": "1",
+                    "meta": ""
+                },
+                {
+                    "name": "Подготовка к школе",
+                    "value": "0",
+                    "meta": ""
+                }
+            ]
+        },
+        "reasons": {
+            "alias": "reasons",
+            "name": "Цели подготовки",
+            "fields": [
+                {
+                    "name": "Подготовка к ЕГЭ",
+                    "value": "forUnifiedExam",
+                    "meta": ""
+                },
+                {
+                    "name": "Подготовка к ОГЭ",
+                    "value": "forMainExam",
+                    "meta": ""
+                },
+                {
+                    "name": "Улучшить знания и оценки",
+                    "value": "forLearning",
+                    "meta": ""
+                },
+                {
+                    "name": "Подготовка к олимпиадам",
+                    "value": "forOlympics",
+                    "meta": ""
+                },
+                {
+                    "name": "Подготовиться к школе",
+                    "value": "forSchool",
+                    "meta": ""
+                },
+                {
+                    "name": "Начать изучать программирование и IT",
+                    "value": "forIt",
+                    "meta": ""
+                },
+                {
+                    "name": "Найти хобби",
+                    "value": "forHobby",
+                    "meta": ""
+                },
+                {
+                    "name": "Выучить иностранный язык",
+                    "value": "forLearnLanguages",
+                    "meta": ""
+                }
+            ]
+        }
+    }
+}
