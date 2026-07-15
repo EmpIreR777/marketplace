@@ -5,20 +5,20 @@ variables:
   DOCKER_BUILDKIT: 1
   GIT_SSL_NO_VERIFY: "true"
 
-# Шаблон для развертывания
+# Deployment template
 .deploy_template: &deploy_template
   stage: deploy
   script:
-    - echo "Развертывание в среде $ENVIRONMENT..."
+    - echo "Deploying to $ENVIRONMENT environment..."
     - docker system prune -f
     - apk add --no-cache curl bind-tools
     - chmod -R 755 ./backend ./frontend
-    # Копируем .env файлы для backend и frontend
+    # Copy .env files for backend and frontend
     - cp ./backend/.env.$ENVIRONMENT ./backend/.env
     - cp ./frontend/.env.$ENVIRONMENT ./frontend/.env
-    # Останавливаем и удаляем существующие контейнеры
+    # Stop and remove existing containers
     - docker compose -f docker-compose-$ENVIRONMENT.yml down --remove-orphans
-    # Запускаем контейнеры с пересборкой
+    # Build and start containers
     - docker compose -f docker-compose-$ENVIRONMENT.yml up -d --build
   tags:
     - $ENVIRONMENT
@@ -32,7 +32,7 @@ deploy-dev:
     - if: '$CI_COMMIT_TAG == "dev"'
   environment:
     name: dev
-    url: http://185.174.164.151:13180
+    url: https://dev.your-domain.com
 
 deploy-test:
   <<: *deploy_template
@@ -43,7 +43,7 @@ deploy-test:
     - if: '$CI_COMMIT_TAG == "test"'
   environment:
     name: test
-    url: http://185.174.164.151:12180
+    url: https://test.your-domain.com
 
 deploy-prod:
   <<: *deploy_template
@@ -54,4 +54,4 @@ deploy-prod:
     - if: '$CI_COMMIT_TAG == "prod"'
   environment:
     name: prod
-    url: https://edx.ru
+    url: https://your-domain.com

@@ -20,7 +20,7 @@ services:
       - ./frontend/dist:/frontend_dist
       - ./vhost.d:/etc/nginx/vhost.d
     environment:
-      - DEFAULT_HOST=edx.ru
+      - DEFAULT_HOST=your-domain.com
     networks:
       - backend
     env_file:
@@ -56,7 +56,7 @@ services:
     environment:
       - NGINX_PROXY_CONTAINER=nginx_proxy
       - NGINX_DOCKER_GEN_CONTAINER=docker_gen
-      - DEFAULT_EMAIL=admin@edx.dzencode.net
+      - DEFAULT_EMAIL=admin@your-domain.com
 
   redis:
     image: redis:6
@@ -98,9 +98,9 @@ services:
         condition: service_healthy
     command: >
       sh -c "
-      echo 'Ожидание БД...' &&
+      echo 'Waiting for database...' &&
       while ! nc -z database 5432; do sleep 1; done &&
-      echo 'БД доступна!' &&
+      echo 'Database is available!' &&
       python manage.py migrate &&
       python manage.py collectstatic --noinput &&
       uvicorn core.asgi:application --host 0.0.0.0 --port 8000"
@@ -120,7 +120,7 @@ services:
     networks:
       - backend
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U admin -d marketplace_db"]
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-postgres} -d ${DB_NAME:-postgres}"]
       interval: 10s
       timeout: 5s
       retries: 5

@@ -27,16 +27,10 @@ print('BASE_DIR', BASE_DIR)
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
-    "http://edx.ru",
-    "https://edx.ru",
-    "http://185.174.164.151:12180",
-    "http://185.174.164.151:13180",
     "http://localhost:8000",
     "http://127.0.0.1:9000",
-    "http://185.174.164.151",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "http://172.18.0.4:5173",
 ]
 
 from corsheaders.defaults import default_headers
