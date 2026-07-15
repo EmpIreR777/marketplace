@@ -15,25 +15,25 @@ from pathlib import Path
 from config import config
 import os
 
-from django.templatetags.static import static
+from corsheaders.defaults import default_headers
 from .other_settings.djoser import DJOSER
 from .other_settings.ck_editor import CKEDITOR_CONFIGS
 from .other_settings.unfold import UNFOLD
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-print('BASE_DIR', BASE_DIR)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
-CORS_ALLOW_ALL_ORIGINS = True
+
+# CORS — use ALLOWED_ORIGINS only, not ALL_ALL_ORIGINS (security)
+# ALL_ALL_ORIGINS overrides ALLOWED_ORIGINS, making the latter useless
+CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000",
     "http://127.0.0.1:9000",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
-
-from corsheaders.defaults import default_headers
 
 CORS_ALLOW_HEADERS = default_headers + (
     'Access-Control-Allow-Headers',
@@ -264,7 +264,8 @@ YOOKASSA_SECRET_KEY = config.YOOKASSA_SECRET_KEY
 
 SILENCED_SYSTEM_CHECKS = ["ckeditor.W001"]
 
+# Optional local overrides (for development only)
 try:
-    from .local_settings import *  # noqa E:403
+    from .local_settings import DEBUG as _  # noqa F401
 except ImportError:
     pass

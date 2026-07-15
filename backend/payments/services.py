@@ -1,21 +1,19 @@
 import datetime
+from types import SimpleNamespace
 
 from django.contrib.auth import get_user_model
-from django.shortcuts import get_object_or_404
 from django.db.models import Count, Sum, Q, CharField
 from django.db.models.functions import TruncDay, TruncMonth, TruncYear, Cast
+from django.http import Http404
+from django.shortcuts import get_object_or_404
 
 from author.models import Author
-from student.models import Student, StudentCoursePurchase
-from courses.models import Course
-from payments.models import Payment, PaymentStatus, PaymentType
-from django.http import Http404
 from courses.models import Course, ThematicsType
-from student.models import StudentCoursePurchase, StudentCoursePurchase
 from notification.models import Notification, NotificationTypes
+from payments.models import Payment, PaymentStatus, PaymentType
+from student.models import Student, StudentCoursePurchase
 from tariffs.models import Tariff
 from tariffs.serializers import UserTariffSerializer
-from types import SimpleNamespace
 
 User = get_user_model()
 
@@ -187,17 +185,13 @@ def get_statistic_service(author: Author, start_date_str: str, end_date_str: str
         end_date = end_date.replace(hour=23, minute=59, second=59)
 
     payment_filter = {}
-    purchase_filter = {}
 
     if start_date:
         payment_filter['created_at__gte'] = start_date
-        purchase_filter['purchase_date__gte'] = start_date
     if end_date:
         payment_filter['created_at__lte'] = end_date
-        purchase_filter['purchase_date__lte'] = end_date
 
     course_ids = Course.objects.filter(author=author).values_list('id', flat=True)
-    # course_stats = get_course_type_statistic(course_ids, start_date, end_date)
 
     course_stats = list(ThematicsType.objects.annotate(
         total_purchases=Count(

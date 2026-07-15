@@ -1,5 +1,4 @@
 import logging
-import traceback
 from urllib.parse import parse_qs
 from channels.auth import AuthMiddlewareStack
 from django.utils.deprecation import MiddlewareMixin
@@ -7,7 +6,6 @@ from rest_framework_simplejwt.tokens import AccessToken
 from django.contrib.auth.models import AnonymousUser
 from django.db import close_old_connections
 from django.contrib.auth import get_user_model
-from django.utils.timezone import now
 
 logger = logging.getLogger(__name__)
 
@@ -21,10 +19,6 @@ class JWTAuthMiddlewareWSGI(MiddlewareMixin):
                 User = get_user_model()
                 user = User.objects.get(id=access_token["user_id"])
                 request.user = user
-
-                user.last_login = now()
-                user.save(update_fields=["last_login"])
-
             except Exception as e:
                 logger.error(f"JWT ошибка: {e}")
 
@@ -47,9 +41,6 @@ class JWTAuthMiddleware:
                 User = get_user_model()
                 user = await User.objects.aget(id=access_token["user_id"])
                 scope["user"] = user
-                if user:
-                    user.last_login = now()
-                    await user.asave()
             except Exception as e:
                 logger.error(f"JWT ошибка: {e}")
         return await self.inner(scope, receive, send)
